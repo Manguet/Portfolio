@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="5xYtUDb" resname="Nom ou raison sociale*">
+        <source>Nom ou raison sociale*</source>
+        <target>Nom ou raison sociale*</target>
+      </trans-unit>
+      <trans-unit id="bD5RyJT" resname="Nom ou raison sociale (obligatoire)">
+        <source>Nom ou raison sociale (obligatoire)</source>
+        <target>Nom ou raison sociale (obligatoire)</target>
+      </trans-unit>
+      <trans-unit id="4yW.j5A" resname="Prénom">
+        <source>Prénom</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="qjZwnDP" resname="Particulier">
+        <source>Particulier</source>
+        <target>Particulier</target>
+      </trans-unit>
+      <trans-unit id="M2RKJRr" resname="Professionel">
+        <source>Professionel</source>
+        <target>Professionel</target>
+      </trans-unit>
+      <trans-unit id="blt.BMl" resname="Quel type d'utilisateur êtes-vous ?">
+        <source>Quel type d'utilisateur êtes-vous ?</source>
+        <target>Quel type d'utilisateur êtes-vous ?</target>
+      </trans-unit>
+      <trans-unit id="NvDqjbl" resname="Numéro de téléphone">
+        <source>Numéro de téléphone</source>
+        <target>Numéro de téléphone</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="7J9RsEO" resname="Votre message*">
+        <source>Votre message*</source>
+        <target>Votre message*</target>
+      </trans-unit>
+      <trans-unit id="q0nlf1v" resname="Votre message (obligatoire)">
+        <source>Votre message (obligatoire)</source>
+        <target>Votre message (obligatoire)</target>
+      </trans-unit>
+      <trans-unit id="Tv.SkLy" resname="Il semble y avoir un problème avec le captcha, merci d'éssayer à nouveau">
+        <source>Il semble y avoir un problème avec le captcha, merci d'éssayer à nouveau</source>
+        <target>Il semble y avoir un problème avec le captcha, merci d'éssayer à nouveau</target>
+      </trans-unit>
+      <trans-unit id="tUAVF5W" resname="Le captcha n'a pas été rempli">
+        <source>Le captcha n'a pas été rempli</source>
+        <target>Le captcha n'a pas été rempli</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="HJfQhKT" resname="Fond d'écran">
+        <source>Fond d'écran</source>
+        <target>Fond d'écran</target>
+      </trans-unit>
+      <trans-unit id="XoyZAiB" resname="job">
+        <source>job</source>
+        <target>Développeur Web</target>
+      </trans-unit>
+      <trans-unit id="NV958p1" resname="Comments">
+        <source>Comments</source>
+        <target>Témoignages</target>
+      </trans-unit>
+      <trans-unit id="GU8K2GB" resname="clients.comments">
+        <source>clients.comments</source>
+        <target>Les retours de mes clients</target>
+      </trans-unit>
+      <trans-unit id="qlr0CE8" resname="contacts">
+        <source>contacts</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="L.TwspH" resname="contact.start">
+        <source>contact.start</source>
+        <target>Afin de commencer à échanger</target>
+      </trans-unit>
+      <trans-unit id="ASCjpPs" resname="social.find.me">
+        <source>social.find.me</source>
+        <target>Retrouvez moi sur les réseaux sociaux</target>
+      </trans-unit>
+      <trans-unit id="hwBWq5i" resname="Mention légales">
+        <source>Mention légales</source>
+        <target>Mention légales</target>
+      </trans-unit>
+      <trans-unit id="w9Nje0D" resname="Site propulsé en 2021 par">
+        <source>Site propulsé en 2021 par</source>
+        <target>Site propulsé en 2021 par</target>
+      </trans-unit>
+      <trans-unit id="ZCOfjZ8" resname="développeur web et web mobile">
+        <source>développeur web et web mobile</source>
+        <target>développeur web et web mobile</target>
+      </trans-unit>
+      <trans-unit id="JWCR3cW" resname="legals">
+        <source>legals</source>
+        <target>Mentions Legales</target>
+      </trans-unit>
+      <trans-unit id="MQ.yABS" resname="close">
+        <source>close</source>
+        <target>Fermer</target>
+      </trans-unit>
+      <trans-unit id="Kc3uSOK" resname="cv">
+        <source>cv</source>
+        <target>Curriculum Vitae</target>
+      </trans-unit>
+      <trans-unit id="u9efZfh" resname="cv.subtitle">
+        <source>cv.subtitle</source>
+        <target>Mes compétences, mon parcours, ...</target>
+      </trans-unit>
+      <trans-unit id="v6wxT_." resname="presentation">
+        <source>presentation</source>
+        <target>Présentation du site</target>
+      </trans-unit>
+      <trans-unit id="ouCkzB8" resname="ans">
+        <source>ans</source>
+        <target>ans</target>
+      </trans-unit>
+      <trans-unit id="MsHPSaL" resname="skills">
+        <source>skills</source>
+        <target>Compétences</target>
+      </trans-unit>
+      <trans-unit id="HpR.CIL" resname="experiences">
+        <source>experiences</source>
+        <target>Expériences</target>
+      </trans-unit>
+      <trans-unit id="AE7OMnG" resname="more.informations">
+        <source>more.informations</source>
+        <target>Informations Complémentaires</target>
+      </trans-unit>
+      <trans-unit id="F1TnBu7" resname="productions">
+        <source>productions</source>
+        <target>Réalisations</target>
+      </trans-unit>
+      <trans-unit id="iDPgsJv" resname="my.works">
+        <source>my.works</source>
+        <target>Une partie des projets sur lesquels j'ai travaillé</target>
+      </trans-unit>
+      <trans-unit id="WWAdZgN" resname="choose.theme">
+        <source>choose.theme</source>
+        <target>Choisissez votre thême</target>
+      </trans-unit>
+      <trans-unit id="macCYXL" resname="light">
+        <source>light</source>
+        <target>Light</target>
+      </trans-unit>
+      <trans-unit id="5rtWib7" resname="dark">
+        <source>dark</source>
+        <target>Dark</target>
+      </trans-unit>
+      <trans-unit id="Fkd2iMD" resname="blue">
+        <source>blue</source>
+        <target>Bleu</target>
+      </trans-unit>
+      <trans-unit id="G0yRM9p" resname="orange">
+        <source>orange</source>
+        <target>Orange</target>
+      </trans-unit>
+      <trans-unit id="xoWiybq" resname="yellow">
+        <source>yellow</source>
+        <target>Jaune</target>
+      </trans-unit>
+      <trans-unit id="jgobCtp" resname="purple">
+        <source>purple</source>
+        <target>Violet</target>
+      </trans-unit>
+      <trans-unit id="ukeIsia" resname="green">
+        <source>green</source>
+        <target>Vert</target>
+      </trans-unit>
+      <trans-unit id="sfUaUR8" resname="red">
+        <source>red</source>
+        <target>Rouge</target>
+      </trans-unit>
+      <trans-unit id="G8yV3Os" resname="site.presentation">
+        <source>site.presentation</source>
+        <target>Présentation du site</target>
+      </trans-unit>
+      <trans-unit id="Izdmr4e" resname="site.presentation.one">
+        <source>site.presentation.one</source>
+        <target>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site</target>
+      </trans-unit>
+      <trans-unit id="YSOI5a2" resname="identity.follow">
+        <source>identity.follow</source>
+        <target>l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</target>
+      </trans-unit>
+      <trans-unit id="TBApaX7" resname="owner">
+        <source>owner</source>
+        <target>Propriétaire</target>
+      </trans-unit>
+      <trans-unit id="vGv9hI6" resname="creator">
+        <source>creator</source>
+        <target>Créateur</target>
+      </trans-unit>
+      <trans-unit id="XwrGKTQ" resname="publication.responsable">
+        <source>publication.responsable</source>
+        <target>Responsable publication</target>
+      </trans-unit>
+      <trans-unit id="gpRUfp." resname="webmaster">
+        <source>webmaster</source>
+        <target>Webmaster</target>
+      </trans-unit>
+      <trans-unit id="R0CuY0e" resname="host">
+        <source>host</source>
+        <target>Hébergeur</target>
+      </trans-unit>
+      <trans-unit id="ayPoLvK" resname="general.conditions">
+        <source>general.conditions</source>
+        <target>Conditions générales d'utilisation du site et des services proposés</target>
+      </trans-unit>
+      <trans-unit id="TCA4ILj" resname="user.site">
+        <source>user.site</source>
+        <target>L'utilisation du site</target>
+      </trans-unit>
+      <trans-unit id="PRhqJHu" resname="site.accept.conditions">
+        <source>site.accept.conditions</source>
+        <target>implique l'acceptation pleine et entière des conditions générales d'utilisation ci-après décrites. Ces conditions d'utilisation sont susceptibles d'être modifiées ou complétées à tout moment, les utilisateurs du site</target>
+      </trans-unit>
+      <trans-unit id="bGfAOD1" resname="consult.legals">
+        <source>consult.legals</source>
+        <target>sont donc invités à les consulter de manière régulière</target>
+      </trans-unit>
+      <trans-unit id="YJYOTRM" resname="site.maintenance">
+        <source>site.maintenance</source>
+        <target>Ce site est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par</target>
+      </trans-unit>
+      <trans-unit id="CMEuv.v" resname="site.maintenance.hours">
+        <source>site.maintenance.hours</source>
+        <target>qui s'efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l'intervention</target>
+      </trans-unit>
+      <trans-unit id="_64EGwL" resname="site">
+        <source>site</source>
+        <target>Le site</target>
+      </trans-unit>
+      <trans-unit id="EkkwIVx" resname="site.maj">
+        <source>site.maj</source>
+        <target>est mis à jour régulièrement par</target>
+      </trans-unit>
+      <trans-unit id="yePIz81" resname="site.legals.modify">
+        <source>site.legals.modify</source>
+        <target>De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s'imposent néanmoins à l'utilisateur qui est invité à s'y référer le plus souvent possible afin d'en prendre connaissance</target>
+      </trans-unit>
+      <trans-unit id="Qb1HbiT" resname="services.description">
+        <source>services.description</source>
+        <target>Description des services fournis</target>
+      </trans-unit>
+      <trans-unit id="74kEFxI" resname="site.activity">
+        <source>site.activity</source>
+        <target>a pour objet de fournir une information concernant l'ensemble des activités de la société</target>
+      </trans-unit>
+      <trans-unit id="N7A2KeM" resname="site.todo">
+        <source>site.todo</source>
+        <target>s'efforce de fournir sur le site</target>
+      </trans-unit>
+      <trans-unit id=".NOvggR" resname="site.responsability">
+        <source>site.responsability</source>
+        <target>des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations</target>
+      </trans-unit>
+      <trans-unit id="syTmEgT" resname="site.all.informations">
+        <source>site.all.informations</source>
+        <target>Tous les informations indiquées sur le site</target>
+      </trans-unit>
+      <trans-unit id="mgMCRgn" resname="site.informations.indications">
+        <source>site.informations.indications</source>
+        <target>sont données à titre indicatif, et sont susceptibles d'évoluer. Par ailleurs, les renseignements figurant sur le site</target>
+      </trans-unit>
+      <trans-unit id="ykOx1J6" resname="site.informations.last">
+        <source>site.informations.last</source>
+        <target>ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne</target>
+      </trans-unit>
+      <trans-unit id="lCxz85H" resname="site.limits">
+        <source>site.limits</source>
+        <target>Limitations contractuelles sur les données techniques</target>
+      </trans-unit>
+      <trans-unit id="xykFMnW" resname="site.javascript">
+        <source>site.javascript</source>
+        <target>Le site utilise la technologie JavaScript</target>
+      </trans-unit>
+      <trans-unit id="eaKT2It" resname="site.material">
+        <source>site.material</source>
+        <target>Le site Internet ne pourra être tenu responsable de dommages matériels liés à l'utilisation du site. De plus, l'utilisateur du site s'engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour</target>
+      </trans-unit>
+      <trans-unit id="G3H2b4F" resname="site.intellectual">
+        <source>site.intellectual</source>
+        <target>Propriété intellectuelle et contrefaçons</target>
+      </trans-unit>
+      <trans-unit id="oKT8U7f" resname="site.intellectual.property">
+        <source>site.intellectual.property</source>
+        <target>est propriétaire des droits de propriété intellectuelle ou détient les droits d'usage sur tous les éléments accessibles sur le site, notamment les textes, images, graphismes, logo, icônes, sons, logiciels</target>
+      </trans-unit>
+      <trans-unit id="190U885" resname="site.authorizations">
+        <source>site.authorizations</source>
+        <target>Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de</target>
+      </trans-unit>
+      <trans-unit id="01UFueg" resname="site.exploitation">
+        <source>site.exploitation</source>
+        <target>Toute exploitation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle</target>
+      </trans-unit>
+      <trans-unit id="_t5X9jT" resname="site.limits.responsability">
+        <source>site.limits.responsability</source>
+        <target>Limitations de responsabilité</target>
+      </trans-unit>
+      <trans-unit id="hPBCx7t" resname="site.access.responsability">
+        <source>site.access.responsability</source>
+        <target>ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l'utilisateur, lors de l'accès au site</target>
+      </trans-unit>
+      <trans-unit id="..V1XZ." resname="site.reponsability.4">
+        <source>site.reponsability.4</source>
+        <target>et résultant soit de l'utilisation d'un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l'apparition d'un bug ou d'une incompatibilité</target>
+      </trans-unit>
+      <trans-unit id="AGohmY2" resname="site.responsability.damage">
+        <source>site.responsability.damage</source>
+        <target>ne pourra également être tenu responsable des dommages indirects (tels par exemple qu'une perte de marché ou perte d'une chance) consécutifs à l'utilisation du site</target>
+      </trans-unit>
+      <trans-unit id="kO3OqIb" resname="site.interactif">
+        <source>site.interactif</source>
+        <target>Des espaces interactifs (possibilité de poser des questions dans l'espace contact) sont à la disposition des utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="qOIB4.k" resname="site.delete.rights">
+        <source>site.delete.rights</source>
+        <target>se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant</target>
+      </trans-unit>
+      <trans-unit id="14EPkGj" resname="site.civil.responsability">
+        <source>site.civil.responsability</source>
+        <target>se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l'utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie…)</target>
+      </trans-unit>
+      <trans-unit id="e4jf4Rf" resname="site.personal.data">
+        <source>site.personal.data</source>
+        <target>Gestion des données personnelles</target>
+      </trans-unit>
+      <trans-unit id="caA7xJV" resname="site.penal">
+        <source>site.penal</source>
+        <target>En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995</target>
+      </trans-unit>
+      <trans-unit id="ytYAMJs" resname="site.use.moment">
+        <source>site.use.moment</source>
+        <target>À l'occasion de l'utilisation du site</target>
+      </trans-unit>
+      <trans-unit id="iGOvv0X" resname="site.url">
+        <source>site.url</source>
+        <target>peuvent êtres recueillies : l'URL des liens par l'intermédiaire desquels l'utilisateur a accédé au site</target>
+      </trans-unit>
+      <trans-unit id="jgkDj2X" resname="site.protocol">
+        <source>site.protocol</source>
+        <target>le fournisseur d'accès de l'utilisateur, l'adresse de protocole Internet (IP) de l'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="an7x7Z8" resname="cause">
+        <source>cause</source>
+        <target>En tout état de cause</target>
+      </trans-unit>
+      <trans-unit id="GoYe8zS" resname="site.data.collect">
+        <source>site.data.collect</source>
+        <target>ne collecte des informations personnelles relatives à l'utilisateur que pour le besoin de certains services proposés par le site</target>
+      </trans-unit>
+      <trans-unit id="I_t7Xuq" resname="site.own.user.mind">
+        <source>site.own.user.mind</source>
+        <target>L'utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu'il procède par lui-même à leur saisie. Il est alors précisé à l'utilisateur du site</target>
+      </trans-unit>
+      <trans-unit id="wDzycDL" resname="obligation.or.not">
+        <source>obligation.or.not</source>
+        <target>}l'obligation ou non de fournir ces informations</target>
+      </trans-unit>
+      <trans-unit id="LHDyQ0v" resname="site.article.38">
+        <source>site.article.38</source>
+        <target>Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout utilisateur dispose d'un droit d'accès, de rectification et d'opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée, accompagnée d'une copie du titre d'identité avec signature du titulaire de la pièce, en précisant l'adresse à laquelle la réponse doit être envoyée</target>
+      </trans-unit>
+      <trans-unit id="tjwm1aj" resname="site.personal.user">
+        <source>site.personal.user</source>
+        <target>Aucune information personnelle de l'utilisateur du site</target>
+      </trans-unit>
+      <trans-unit id="sKIc2Dw" resname="site.right.buy">
+        <source>site.right.buy</source>
+        <target>n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de</target>
+      </trans-unit>
+      <trans-unit id="13jKMr3" resname="site.transition">
+        <source>site.transition</source>
+        <target>et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site</target>
+      </trans-unit>
+      <trans-unit id="XOKhxtl" resname="site.cnil">
+        <source>site.cnil</source>
+        <target>Le site n'est pas déclaré à la CNIL car il ne recueille pas d'informations personnelles</target>
+      </trans-unit>
+      <trans-unit id="VMOLmvy" resname="site.bdd">
+        <source>site.bdd</source>
+        <target>Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données</target>
+      </trans-unit>
+      <trans-unit id="x7ITXuX" resname="site.hyperlink.cookies">
+        <source>site.hyperlink.cookies</source>
+        <target>Liens hypertextes et cookies</target>
+      </trans-unit>
+      <trans-unit id="GdCl_qu" resname="site.links">
+        <source>site.links</source>
+        <target>contient un certain nombre de liens hypertextes vers d'autres sites, mis en place avec l'autorisation de</target>
+      </trans-unit>
+      <trans-unit id="R5UYM_z" resname="however">
+        <source>however</source>
+        <target>Cependant</target>
+      </trans-unit>
+      <trans-unit id="IRLZIo5" resname="site.visit.reponsability">
+        <source>site.visit.reponsability</source>
+        <target>n'a pas la possibilité de vérifier le contenu des sites ainsi visités, et n'assumera en conséquence aucune responsabilité de ce fait</target>
+      </trans-unit>
+      <trans-unit id="kX.RDLU" resname="site.navigation">
+        <source>site.navigation</source>
+        <target>La navigation sur le site</target>
+      </trans-unit>
+      <trans-unit id="oQDGwZp" resname="site.cookies">
+        <source>site.cookies</source>
+        <target>est susceptible de provoquer l'installation de cookie(s) sur l'ordinateur de l'utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l'identification de l'utilisateur, mais qui enregistre des informations relatives à la navigation d'un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation</target>
+      </trans-unit>
+      <trans-unit id="9LmJYS." resname="site.coockies.refuse">
+        <source>site.coockies.refuse</source>
+        <target>Le refus d'installation d'un cookie peut entraîner l'impossibilité d'accéder à certains services. L'utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l'installation des cookies</target>
+      </trans-unit>
+      <trans-unit id="mBNM2is" resname="site.ie">
+        <source>site.ie</source>
+        <target>Sous Internet Explorer : onglet outil / options internet. Cliquez sur Confidentialité et choisissez Bloquer tous les cookies. Validez sur Ok</target>
+      </trans-unit>
+      <trans-unit id="JJLVTqP" resname="site.netscape">
+        <source>site.netscape</source>
+        <target>Sous Netscape : onglet édition / préférences. Cliquez sur Avancées et choisissez Désactiver les cookies. Validez sur Ok</target>
+      </trans-unit>
+      <trans-unit id="0LcZAMG" resname="site.sessions">
+        <source>site.sessions</source>
+        <target>Cookies de sessions présents sur ce site</target>
+      </trans-unit>
+      <trans-unit id="hWVLfCT" resname="site.php.cookie">
+        <source>site.php.cookie</source>
+        <target>Cookie de session propre à PHP</target>
+      </trans-unit>
+      <trans-unit id="8dDw3BY" resname="other.cookies">
+        <source>other.cookies</source>
+        <target>Autres cookies</target>
+      </trans-unit>
+      <trans-unit id="670AZdE" resname="site.analytics">
+        <source>site.analytics</source>
+        <target>Cookies propres à Google Analytics (statistiques)</target>
+      </trans-unit>
+      <trans-unit id="7kB_Ssk" resname="site.right.juridic">
+        <source>site.right.juridic</source>
+        <target>Droit applicable et attribution de juridiction</target>
+      </trans-unit>
+      <trans-unit id="ZrEk4TT" resname="site.problem">
+        <source>site.problem</source>
+        <target>Tout litige en relation avec l'utilisation du site</target>
+      </trans-unit>
+      <trans-unit id="OVUGqHy" resname="site.law.french">
+        <source>site.law.french</source>
+        <target>est soumis aux tribunaux francais compétents statuant selon le droit français</target>
+      </trans-unit>
+      <trans-unit id="16gexYc" resname="site.principal.laws">
+        <source>site.principal.laws</source>
+        <target>Les principales lois concernées</target>
+      </trans-unit>
+      <trans-unit id="7BUIp2z" resname="site.78.87">
+        <source>site.78.87</source>
+        <target>Loi n° 78-87 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6 août 2004 relative à l'informatique, aux fichiers et aux libertés</target>
+      </trans-unit>
+      <trans-unit id="w9FZ4kP" resname="site.economy.numeric">
+        <source>site.economy.numeric</source>
+        <target>Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique</target>
+      </trans-unit>
+      <trans-unit id="D_xCZa8" resname="affiliation">
+        <source>affiliation</source>
+        <target>Affiliation</target>
+      </trans-unit>
+      <trans-unit id="ab_IZF." resname="site.no.affiliation">
+        <source>site.no.affiliation</source>
+        <target>Ce site n'est associé à aucune affiliation</target>
+      </trans-unit>
+      <trans-unit id="JNZJlPc" resname="lexic">
+        <source>lexic</source>
+        <target>Lexique</target>
+      </trans-unit>
+      <trans-unit id="zThP1l_" resname="site.user.web">
+        <source>site.user.web</source>
+        <target>Utilisateur : Internaute se connectant, utilisant le site susnommé</target>
+      </trans-unit>
+      <trans-unit id="nspspTu" resname="site.personal.informations">
+        <source>site.personal.informations</source>
+        <target>Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978)</target>
+      </trans-unit>
+      <trans-unit id="FQA1c3X" resname="page.top">
+        <source>page.top</source>
+        <target>Haut de page</target>
+      </trans-unit>
+      <trans-unit id="D1.tF5H" resname="CV">
+        <source>CV</source>
+        <target>CV</target>
+      </trans-unit>
+      <trans-unit id="OVJTE9y" resname="realisations">
+        <source>realisations</source>
+        <target>Réalisations</target>
+      </trans-unit>
+      <trans-unit id="K0JE_yZ" resname="comments">
+        <source>comments</source>
+        <target>Témoignages</target>
+      </trans-unit>
+      <trans-unit id="CT59X9u" resname="contact">
+        <source>contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="p1RObcQ" resname="download.cv">
+        <source>download.cv</source>
+        <target>Télécharger le CV</target>
+      </trans-unit>
+      <trans-unit id="eS_Tfw2" resname="reconversion">
+        <source>reconversion</source>
+        <target>reconversion</target>
+      </trans-unit>
+      <trans-unit id="drHuWC2" resname="passion">
+        <source>passion</source>
+        <target>passion</target>
+      </trans-unit>
+      <trans-unit id="_qHO7pw" resname="statisfaction">
+        <source>statisfaction</source>
+        <target>statisfaction</target>
+      </trans-unit>
+      <trans-unit id="LnVw2Nh" resname="Benjamin Manguet - Connexion">
+        <source>Benjamin Manguet - Connexion</source>
+        <target>Benjamin Manguet - Connexion</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="vKw_KM8" resname="same.in">
+        <source>same.in</source>
+        <target>Même en</target>
+      </trans-unit>
+      <trans-unit id="l476eux" resname="we.can">
+        <source>we.can</source>
+        <target>nous pouvons réussir</target>
+      </trans-unit>
+      <trans-unit id="cFykEvI" resname="work.with">
+        <source>work.with</source>
+        <target>Travailler avec</target>
+      </trans-unit>
+      <trans-unit id="ZvYtGAf" resname="research">
+        <source>research</source>
+        <target>A la recherche de la</target>
+      </trans-unit>
+      <trans-unit id="Onh.7.a" resname="legals.mentions">
+        <source>legals.mentions</source>
+        <target>Mention légales</target>
+      </trans-unit>
+      <trans-unit id="S75FxhF" resname="site.2021">
+        <source>site.2021</source>
+        <target>Site propulsé en 2021 par</target>
+      </trans-unit>
+      <trans-unit id="DL7OO1k" resname="web.mobile">
+        <source>web.mobile</source>
+        <target>développeur web et web mobile</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

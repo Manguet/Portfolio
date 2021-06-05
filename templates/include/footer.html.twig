@@ -1,0 +1,89 @@
+<div class="footer">
+    <div>
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="footer-link">
+                <button type="button"
+                        class="btn-custom replace-blue"
+                        data-toggle="modal"
+                        data-target="#legalsModal"
+                >
+                    {% trans %}
+                        legals.mentions
+                    {% endtrans %}
+                </button>
+            </div>
+
+            {% if user is defined %}
+                <div class="footer-link">
+                    <a href="{{ tool.site }}"
+                       class="replace-blue"
+                    >
+                        {{ user.firstname|upper }} {{ user.lastname|upper }}
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+
+        {% if user is defined %}
+            <div class="informations">
+                {% trans %}
+                    site.2021
+                {% endtrans %}
+                <a href="{{ tool.site }}"
+                   class="replace-blue"
+                >
+                    {{ user.firstname }} {{ user.lastname }}
+                </a>
+                ,
+                {% trans %}
+                    web.mobile
+                {% endtrans %}
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="modal fade"
+     id="legalsModal"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="legalsModal"
+     aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-scrollable"
+         role="document"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"
+                    id="legalsModalTitle"
+                >
+                    {% trans %}
+                        legals
+                    {% endtrans %}
+                </h5>
+
+                <button type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                {% include 'include/legals.html.twig' %}
+            </div>
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                >
+                    {% trans %}
+                        close
+                    {% endtrans %}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

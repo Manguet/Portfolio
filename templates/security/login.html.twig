@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Benjamin Manguet - Connexion{% endtrans %}{% endblock %}
+
+{% block body %}
+    <div class="container login-form">
+        <form method="post">
+            {% if error %}
+                <div class="alert alert-danger">
+                    {{ error.messageKey|trans(error.messageData, 'security') }}
+                </div>
+            {% endif %}
+
+            <h1 class="h3 mb-3 font-weight-normal text-center blue">
+                {% trans %}
+                    Connexion
+                {% endtrans %}
+            </h1>
+
+            <label for="inputEmail">
+                {% trans %}
+                    Email
+                {% endtrans %}
+            </label>
+            <input type="email"
+                   value="{{ last_username }}"
+                   name="email"
+                   id="inputEmail"
+                   class="form-control"
+                   autocomplete="email"
+                   required
+                   autofocus
+            >
+
+            <label for="inputPassword">
+                {% trans %}
+                    Mot de passe
+                {% endtrans %}
+            </label>
+            <input type="password"
+                   name="password"
+                   id="inputPassword"
+                   class="form-control"
+                   autocomplete="current-password"
+                   required
+            >
+
+            <input type="hidden"
+                   name="_csrf_token"
+                   value="{{ csrf_token('authenticate') }}"
+            >
+
+            <div class="d-flex justify-content-center align-items-center mt-3">
+                <button class="custom-button button-blue border-blue btn"
+                        type="submit"
+                >
+                    {% trans %}
+                        Connexion
+                    {% endtrans %}
+                </button>
+            </div>
+
+        </form>
+    </div>
+{% endblock %}

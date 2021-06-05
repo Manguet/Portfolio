@@ -1,0 +1,28 @@
+.footer {
+  border-top: 1px solid $black;
+  background-color: $black;
+
+  .informations {
+    text-align: center;
+    font-size: 0.7em;
+    color: $white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .footer-link {
+    padding-top: 5px;
+  }
+
+  .btn-custom {
+    background-color: $black;
+    border: none;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}

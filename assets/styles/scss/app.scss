@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import 'variable';
+@import 'base';
+
+@import 'colors/blue';
+@import 'colors/dark';
+@import 'colors/green';
+@import 'colors/light';
+@import 'colors/orange';
+@import 'colors/purple';
+@import 'colors/red';
+@import 'colors/yellow';
+@import 'colors/white';
+
+@import 'sections/left-header';
+@import 'sections/carousel';
+@import 'sections/cv';
+@import 'sections/realisation';
+@import 'sections/temoignages';
+@import 'sections/contact';
+@import 'sections/footer';
+
+@import 'others/parallax';
+@import 'others/tool';
+@import 'others/timeline';
+@import 'others/to-top';
+
+@import 'login/login';

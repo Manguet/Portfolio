@@ -1,0 +1,508 @@
+<p>
+    1.
+    {% trans %}
+        site.presentation
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.presentation.one
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        identity.follow
+    {% endtrans %}
+    :
+</p>
+
+<p>
+    {% trans %}
+        owner
+    {% endtrans %}
+    :
+    {{ user.firstname }} {{ user.lastname }} – {{ user.address }} - {{ user.address2 }} - {{ user.postalCode }} {{ user.city }} - {{ user.country }}
+</p>
+
+<p>
+    {% trans %}
+        creator
+    {% endtrans %}
+    :
+    {{ user.firstname }} {{ user.lastname }} - {{ tool.site }}
+</p>
+
+<p>
+    {% trans %}
+        publication.responsable
+    {% endtrans %}
+    : {{ user.firstname }} {{ user.lastname }}
+</p>
+
+<p>
+    {% trans %}
+        webmaster
+    {% endtrans %}
+    : {{ user.firstname }} {{ user.lastname }} – {{ user.email }}
+</p>
+
+<p>
+    {% trans %}
+        host
+    {% endtrans %}
+    : {{ tool.host }} – {{ tool.hostAddress }} - {{ tool.hostAddress2 }} {{ tool.hostPostalCode }} {{ tool.hostCity }} - {{ tool.hostCountry }}
+</p>
+
+<p>
+    2. {% trans %}
+    general.conditions
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        user.site
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.accept.conditions
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+    consult.legals
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.maintenance
+    {% endtrans %}
+    {{ tool.site }},
+    {% trans %}
+        site.maintenance.hours
+    {% endtrans %}.
+</p>
+
+<p>
+    {% trans %}
+        site
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.maj
+    {% endtrans %}
+    {{ user.firstname }} {{ user.lastname }}.
+    {% trans %}
+    site.legals.modify
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    3.
+    {% trans %}
+        services.description
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.activity
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.todo
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.responsability
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.all.informations
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.informations.indications
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+    site.informations.last
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    4.
+    {% trans %}
+        site.limits
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.javascript
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.material
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    5.
+    {% trans %}
+        site.intellectual
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.intellectual.property
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.authorizations
+    {% endtrans %}
+    : {{ user.firstname }} {{ user.lastname }}.
+</p>
+
+<p>
+    {% trans %}
+        site.exploitation
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    6.
+    {% trans %}
+        site.limits.responsability
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.access.responsability
+    {% endtrans %}
+    {{ tool.site }},
+    {% trans %}
+        site.reponsability.4
+    {% endtrans %}
+</p>
+
+<p>
+    {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.responsability.damage
+    {% endtrans %}
+    {{ tool.site }}.
+</p>
+
+<p>
+    {% trans %}
+        site.interactif
+    {% endtrans %}
+    . {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.delete.rights
+    {% endtrans %}
+    , {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.civil.responsability
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    7.
+    {% trans %}
+        site.personal.data
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.penal
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.use.moment
+    {% endtrans %}
+    {{ tool.site }},
+    {% trans %}
+        site.url
+    {% endtrans %}
+    {{ tool.site }},
+    {% trans %}
+        site.protocol
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        cause
+    {% endtrans %}
+    {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.data.collect
+    {% endtrans %}
+    {{ tool.site }}.
+    {% trans %}
+        site.own.user.mind
+    {% endtrans %}
+        {{ tool.site }}
+    {% trans %}
+        obligation.or.not
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.article.38
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.personal.user
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.right.buy
+    {% endtrans %}
+    {{ tool.societyName }}
+    {% trans %}
+        site.transition
+    {% endtrans %}
+    {{ tool.site }}.
+</p>
+
+<p>
+    {% trans %}
+        site.cnil
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.bdd
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    8.
+    {% trans %}
+        site.hyperlink.cookies
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.links
+    {% endtrans %}
+    {{ user.firstname }} {{ user.lastname }}.
+    {% trans %}
+        however
+    {% endtrans %}
+    , {{ user.firstname }} {{ user.lastname }}
+    {% trans %}
+        site.visit.reponsability
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.navigation
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.cookies
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.coockies.refuse
+    {% endtrans %}
+    :
+    <br />
+    {% trans %}
+        site.ie
+    {% endtrans %}
+    .
+    <br />
+    {% trans %}
+        site.netscape
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.sessions
+    {% endtrans %}
+    :
+</p>
+
+<p>
+    PHPSESSID :
+    {% trans %}
+        site.php.cookie
+    {% endtrans %}
+</p>
+
+<p>
+    {% trans %}
+        other.cookies
+    {% endtrans %}
+    :
+</p>
+
+<p>
+    _ga, _gat :
+    {% trans %}
+        site.analytics
+    {% endtrans %}
+</p>
+
+<p>
+    9.
+    {% trans %}
+        site.right.juridic
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.problem
+    {% endtrans %}
+    {{ tool.site }}
+    {% trans %}
+        site.law.french
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    10.
+    {% trans %}
+        site.principal.laws
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.78.87
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.economy.numeric
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    11.
+    {% trans %}
+        affiliation
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.no.affiliation
+    {% endtrans %}
+</p>
+
+<p>
+    12.
+    {% trans %}
+        lexic
+    {% endtrans %}
+    .
+</p>
+<hr>
+
+<p>
+    {% trans %}
+        site.user.web
+    {% endtrans %}
+    .
+</p>
+
+<p>
+    {% trans %}
+        site.personal.informations
+    {% endtrans %}
+    .
+</p>
+
+<div>
+    Logo made by
+    <a href="https://www.designevo.com/"
+       title="Free Online Logo Maker"
+    >
+        DesignEvo free logo creator
+    </a>
+</div>

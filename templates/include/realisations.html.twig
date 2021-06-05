@@ -1,0 +1,54 @@
+<div class="text-center mt-5" id="realisations">
+    <h2 class="title blue">
+        {% trans %}
+            productions
+        {% endtrans %}
+    </h2>
+    <h3 class="subtitle-section">
+        {% trans %}
+            my.works
+        {% endtrans %}
+    </h3>
+    <div class="margin-underline">
+        <div class="underline-title line-blue"></div>
+    </div>
+</div>
+
+<div class="realisation-field">
+    <div class="scene d-flex justify-content-center"
+         data-aos="flip-up"
+     >
+
+        {% for realisation in realisations %}
+
+            <a href="{{ realisation.site }}" target="_blank">
+
+                <div class="card">
+                    <div class="card__face card__face--front">
+                        <img src="{{ asset('build/images/'~realisation.image) }}"
+                             alt="{{ realisation.altTitle }}"
+                             title="{{ realisation.title }}"
+                        >
+                    </div>
+                    <div class="card__face card__face--back border-blue">
+                        <div class="text-center">
+                            <h3 class="replace-blue-icon">
+                                {{ realisation.title }}
+                            </h3>
+                            <hr>
+                            <br/>
+                            <div>
+                                {% if app.request.locale == 'fr' %}
+                                    {{ realisation.presentation|raw }}
+                                {% else %}
+                                    {{ realisation.presentationEn|raw }}
+                                {% endif %}
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</div>

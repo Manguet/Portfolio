@@ -1,0 +1,70 @@
+.red {
+  color: $red;
+}
+
+.red-title {
+  color: $black;
+}
+
+.red-subtitle {
+  color: $red;
+}
+
+.text-red {
+  color: $black;
+}
+
+.base-text-red {
+  color: $black;
+}
+
+.red-terminal {
+  color: $red;
+}
+
+.background-red {
+  background-color: $red;
+}
+
+.background-page-red {
+  background-color: $white;
+}
+
+.line-red {
+  background-color: $red;
+}
+
+.red-icon {
+  color: $red;
+}
+
+.replace-red :hover {
+  color: $red !important;
+}
+
+.replace-red-icon:hover {
+  color: $red !important;
+}
+
+.hover-menu-red:hover {
+  color: $white !important;
+}
+
+.button-red {
+  background-color: $red;
+  color: $white !important;
+}
+
+.border-red {
+  border: 4px solid $red;
+}
+
+.shadow-red {
+  border-right: 1px solid $black;
+  box-shadow: 22px 0px 23px -10px $black;
+}
+
+.red-parallax {
+  color: $red;
+  text-shadow: 0px 0px 2px $black;
+}

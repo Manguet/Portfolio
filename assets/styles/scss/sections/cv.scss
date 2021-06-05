@@ -1,0 +1,78 @@
+.cv-field {
+  margin-left: 30vw;
+  padding-top: 5vh;
+
+  .icon {
+    font-size: 5em;
+  }
+
+  .subicon {
+    font-size: 2.2em;
+  }
+
+  h3 {
+    font-family: $title;
+  }
+
+  .timeline-subtitle {
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-style: italic;
+  }
+
+  .bolder {
+    font-weight: bold;
+  }
+
+  .logo-skills {
+    max-width: 80px;
+  }
+
+  .img-height {
+    height: 60px;
+  }
+
+  .logo-text {
+    opacity: 0 !important;
+  }
+
+  .rotate-zoom-out div img {
+    -webkit-transform: rotate(10deg) scale(1.25);
+    transform: rotate(10deg) scale(1.25);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .rotate-zoom-out div:hover img {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+
+  .rotate-zoom-out div:hover .logo-text {
+    z-index: 9;
+    animation: text-appear 20s;
+  }
+
+  @keyframes text-appear {
+    0% {
+      opacity: 0;
+    }
+    2% {
+      opacity: 0.3;
+    }
+    3% {
+      opacity: 0.5;
+    }
+    4% {
+      opacity: 0.8;
+    }
+    5% {
+      opacity: 1;
+    }
+  }
+
+  .flag {
+    width: 50px;
+  }
+}

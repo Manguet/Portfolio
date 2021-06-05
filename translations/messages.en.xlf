@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="5xYtUDb" resname="Nom ou raison sociale*">
+        <source>Nom ou raison sociale*</source>
+        <target>Name or company name*</target>
+      </trans-unit>
+      <trans-unit id="bD5RyJT" resname="Nom ou raison sociale (obligatoire)">
+        <source>Nom ou raison sociale (obligatoire)</source>
+        <target>Name or company name (obligatory)</target>
+      </trans-unit>
+      <trans-unit id="4yW.j5A" resname="Prénom">
+        <source>Prénom</source>
+        <target>Firstname</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="qjZwnDP" resname="Particulier">
+        <source>Particulier</source>
+        <target>Private</target>
+      </trans-unit>
+      <trans-unit id="M2RKJRr" resname="Professionel">
+        <source>Professionel</source>
+        <target>Professional</target>
+      </trans-unit>
+      <trans-unit id="blt.BMl" resname="Quel type d'utilisateur êtes-vous ?">
+        <source>Quel type d'utilisateur êtes-vous ?</source>
+        <target>What type of user are you?</target>
+      </trans-unit>
+      <trans-unit id="NvDqjbl" resname="Numéro de téléphone">
+        <source>Numéro de téléphone</source>
+        <target>Phone number</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit id="7J9RsEO" resname="Votre message*">
+        <source>Votre message*</source>
+        <target>Your message*</target>
+      </trans-unit>
+      <trans-unit id="q0nlf1v" resname="Votre message (obligatoire)">
+        <source>Votre message (obligatoire)</source>
+        <target>Your message (obligatory)</target>
+      </trans-unit>
+      <trans-unit id="Tv.SkLy" resname="Il semble y avoir un problème avec le captcha, merci d'éssayer à nouveau">
+        <source>Il semble y avoir un problème avec le captcha, merci d'éssayer à nouveau</source>
+        <target>There seems to be a problem with the captcha, please try again</target>
+      </trans-unit>
+      <trans-unit id="tUAVF5W" resname="Le captcha n'a pas été rempli">
+        <source>Le captcha n'a pas été rempli</source>
+        <target>The captcha has not been completed</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit id="HJfQhKT" resname="Fond d'écran">
+        <source>Fond d'écran</source>
+        <target>Wallpaper</target>
+      </trans-unit>
+      <trans-unit id="XoyZAiB" resname="job">
+        <source>job</source>
+        <target>Web Developer</target>
+      </trans-unit>
+      <trans-unit id="NV958p1" resname="Comments">
+        <source>Comments</source>
+        <target>Witness</target>
+      </trans-unit>
+      <trans-unit id="GU8K2GB" resname="clients.comments">
+        <source>clients.comments</source>
+        <target>Feedback from my clients</target>
+      </trans-unit>
+      <trans-unit id="qlr0CE8" resname="contacts">
+        <source>contacts</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="L.TwspH" resname="contact.start">
+        <source>contact.start</source>
+        <target>contact.start</target>
+      </trans-unit>
+      <trans-unit id="ASCjpPs" resname="social.find.me">
+        <source>social.find.me</source>
+        <target>__social.find.me</target>
+      </trans-unit>
+      <trans-unit id="hwBWq5i" resname="Mention légales">
+        <source>Mention légales</source>
+        <target>Legals</target>
+      </trans-unit>
+      <trans-unit id="w9Nje0D" resname="Site propulsé en 2021 par">
+        <source>Site propulsé en 2021 par</source>
+        <target>__Site propulsé en 2021 par</target>
+      </trans-unit>
+      <trans-unit id="ZCOfjZ8" resname="développeur web et web mobile">
+        <source>développeur web et web mobile</source>
+        <target>Mobile and Web Developer</target>
+      </trans-unit>
+      <trans-unit id="JWCR3cW" resname="legals">
+        <source>legals</source>
+        <target>Legals</target>
+      </trans-unit>
+      <trans-unit id="MQ.yABS" resname="close">
+        <source>close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="Kc3uSOK" resname="cv">
+        <source>cv</source>
+        <target>Curriculum Vitae</target>
+      </trans-unit>
+      <trans-unit id="u9efZfh" resname="cv.subtitle">
+        <source>cv.subtitle</source>
+        <target>__cv.subtitle</target>
+      </trans-unit>
+      <trans-unit id="v6wxT_." resname="presentation">
+        <source>presentation</source>
+        <target>__presentation</target>
+      </trans-unit>
+      <trans-unit id="ouCkzB8" resname="ans">
+        <source>ans</source>
+        <target>years</target>
+      </trans-unit>
+      <trans-unit id="MsHPSaL" resname="skills">
+        <source>skills</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="HpR.CIL" resname="experiences">
+        <source>experiences</source>
+        <target>Experiences</target>
+      </trans-unit>
+      <trans-unit id="AE7OMnG" resname="more.informations">
+        <source>more.informations</source>
+        <target>__more.informations</target>
+      </trans-unit>
+      <trans-unit id="F1TnBu7" resname="productions">
+        <source>productions</source>
+        <target>__productions</target>
+      </trans-unit>
+      <trans-unit id="iDPgsJv" resname="my.works">
+        <source>my.works</source>
+        <target>__my.works</target>
+      </trans-unit>
+      <trans-unit id="WWAdZgN" resname="choose.theme">
+        <source>choose.theme</source>
+        <target>__choose.theme</target>
+      </trans-unit>
+      <trans-unit id="macCYXL" resname="light">
+        <source>light</source>
+        <target>Light</target>
+      </trans-unit>
+      <trans-unit id="5rtWib7" resname="dark">
+        <source>dark</source>
+        <target>Dark</target>
+      </trans-unit>
+      <trans-unit id="Fkd2iMD" resname="blue">
+        <source>blue</source>
+        <target>Blue</target>
+      </trans-unit>
+      <trans-unit id="G0yRM9p" resname="orange">
+        <source>orange</source>
+        <target>Orange</target>
+      </trans-unit>
+      <trans-unit id="xoWiybq" resname="yellow">
+        <source>yellow</source>
+        <target>Yellow</target>
+      </trans-unit>
+      <trans-unit id="jgobCtp" resname="purple">
+        <source>purple</source>
+        <target>Purple</target>
+      </trans-unit>
+      <trans-unit id="ukeIsia" resname="green">
+        <source>green</source>
+        <target>Green</target>
+      </trans-unit>
+      <trans-unit id="sfUaUR8" resname="red">
+        <source>red</source>
+        <target>Red</target>
+      </trans-unit>
+      <trans-unit id="G8yV3Os" resname="site.presentation">
+        <source>site.presentation</source>
+        <target>__site.presentation</target>
+      </trans-unit>
+      <trans-unit id="Izdmr4e" resname="site.presentation.one">
+        <source>site.presentation.one</source>
+        <target>__site.presentation.one</target>
+      </trans-unit>
+      <trans-unit id="YSOI5a2" resname="identity.follow">
+        <source>identity.follow</source>
+        <target>__identity.follow</target>
+      </trans-unit>
+      <trans-unit id="TBApaX7" resname="owner">
+        <source>owner</source>
+        <target>Owner</target>
+      </trans-unit>
+      <trans-unit id="vGv9hI6" resname="creator">
+        <source>creator</source>
+        <target>Creator</target>
+      </trans-unit>
+      <trans-unit id="XwrGKTQ" resname="publication.responsable">
+        <source>publication.responsable</source>
+        <target>__publication.responsable</target>
+      </trans-unit>
+      <trans-unit id="gpRUfp." resname="webmaster">
+        <source>webmaster</source>
+        <target>Webmaster</target>
+      </trans-unit>
+      <trans-unit id="R0CuY0e" resname="host">
+        <source>host</source>
+        <target>__host</target>
+      </trans-unit>
+      <trans-unit id="ayPoLvK" resname="general.conditions">
+        <source>general.conditions</source>
+        <target>__general.conditions</target>
+      </trans-unit>
+      <trans-unit id="TCA4ILj" resname="user.site">
+        <source>user.site</source>
+        <target>__user.site</target>
+      </trans-unit>
+      <trans-unit id="PRhqJHu" resname="site.accept.conditions">
+        <source>site.accept.conditions</source>
+        <target>__site.accept.conditions</target>
+      </trans-unit>
+      <trans-unit id="bGfAOD1" resname="consult.legals">
+        <source>consult.legals</source>
+        <target>__consult.legals</target>
+      </trans-unit>
+      <trans-unit id="YJYOTRM" resname="site.maintenance">
+        <source>site.maintenance</source>
+        <target>__site.maintenance</target>
+      </trans-unit>
+      <trans-unit id="CMEuv.v" resname="site.maintenance.hours">
+        <source>site.maintenance.hours</source>
+        <target>__site.maintenance.hours</target>
+      </trans-unit>
+      <trans-unit id="_64EGwL" resname="site">
+        <source>site</source>
+        <target>__site</target>
+      </trans-unit>
+      <trans-unit id="EkkwIVx" resname="site.maj">
+        <source>site.maj</source>
+        <target>__site.maj</target>
+      </trans-unit>
+      <trans-unit id="yePIz81" resname="site.legals.modify">
+        <source>site.legals.modify</source>
+        <target>__site.legals.modify</target>
+      </trans-unit>
+      <trans-unit id="Qb1HbiT" resname="services.description">
+        <source>services.description</source>
+        <target>__services.description</target>
+      </trans-unit>
+      <trans-unit id="74kEFxI" resname="site.activity">
+        <source>site.activity</source>
+        <target>__site.activity</target>
+      </trans-unit>
+      <trans-unit id="N7A2KeM" resname="site.todo">
+        <source>site.todo</source>
+        <target>__site.todo</target>
+      </trans-unit>
+      <trans-unit id=".NOvggR" resname="site.responsability">
+        <source>site.responsability</source>
+        <target>__site.responsability</target>
+      </trans-unit>
+      <trans-unit id="syTmEgT" resname="site.all.informations">
+        <source>site.all.informations</source>
+        <target>__site.all.informations</target>
+      </trans-unit>
+      <trans-unit id="mgMCRgn" resname="site.informations.indications">
+        <source>site.informations.indications</source>
+        <target>__site.informations.indications</target>
+      </trans-unit>
+      <trans-unit id="ykOx1J6" resname="site.informations.last">
+        <source>site.informations.last</source>
+        <target>__site.informations.last</target>
+      </trans-unit>
+      <trans-unit id="lCxz85H" resname="site.limits">
+        <source>site.limits</source>
+        <target>__site.limits</target>
+      </trans-unit>
+      <trans-unit id="xykFMnW" resname="site.javascript">
+        <source>site.javascript</source>
+        <target>__site.javascript</target>
+      </trans-unit>
+      <trans-unit id="eaKT2It" resname="site.material">
+        <source>site.material</source>
+        <target>__site.material</target>
+      </trans-unit>
+      <trans-unit id="G3H2b4F" resname="site.intellectual">
+        <source>site.intellectual</source>
+        <target>__site.intellectual</target>
+      </trans-unit>
+      <trans-unit id="oKT8U7f" resname="site.intellectual.property">
+        <source>site.intellectual.property</source>
+        <target>__site.intellectual.property</target>
+      </trans-unit>
+      <trans-unit id="190U885" resname="site.authorizations">
+        <source>site.authorizations</source>
+        <target>__site.authorizations</target>
+      </trans-unit>
+      <trans-unit id="01UFueg" resname="site.exploitation">
+        <source>site.exploitation</source>
+        <target>__site.exploitation</target>
+      </trans-unit>
+      <trans-unit id="_t5X9jT" resname="site.limits.responsability">
+        <source>site.limits.responsability</source>
+        <target>__site.limits.responsability</target>
+      </trans-unit>
+      <trans-unit id="hPBCx7t" resname="site.access.responsability">
+        <source>site.access.responsability</source>
+        <target>__site.access.responsability</target>
+      </trans-unit>
+      <trans-unit id="..V1XZ." resname="site.reponsability.4">
+        <source>site.reponsability.4</source>
+        <target>__site.reponsability.4</target>
+      </trans-unit>
+      <trans-unit id="AGohmY2" resname="site.responsability.damage">
+        <source>site.responsability.damage</source>
+        <target>__site.responsability.damage</target>
+      </trans-unit>
+      <trans-unit id="kO3OqIb" resname="site.interactif">
+        <source>site.interactif</source>
+        <target>__site.interactif</target>
+      </trans-unit>
+      <trans-unit id="qOIB4.k" resname="site.delete.rights">
+        <source>site.delete.rights</source>
+        <target>__site.delete.rights</target>
+      </trans-unit>
+      <trans-unit id="14EPkGj" resname="site.civil.responsability">
+        <source>site.civil.responsability</source>
+        <target>__site.civil.responsability</target>
+      </trans-unit>
+      <trans-unit id="e4jf4Rf" resname="site.personal.data">
+        <source>site.personal.data</source>
+        <target>__site.personal.data</target>
+      </trans-unit>
+      <trans-unit id="caA7xJV" resname="site.penal">
+        <source>site.penal</source>
+        <target>__site.penal</target>
+      </trans-unit>
+      <trans-unit id="ytYAMJs" resname="site.use.moment">
+        <source>site.use.moment</source>
+        <target>__site.use.moment</target>
+      </trans-unit>
+      <trans-unit id="iGOvv0X" resname="site.url">
+        <source>site.url</source>
+        <target>__site.url</target>
+      </trans-unit>
+      <trans-unit id="jgkDj2X" resname="site.protocol">
+        <source>site.protocol</source>
+        <target>__site.protocol</target>
+      </trans-unit>
+      <trans-unit id="an7x7Z8" resname="cause">
+        <source>cause</source>
+        <target>__cause</target>
+      </trans-unit>
+      <trans-unit id="GoYe8zS" resname="site.data.collect">
+        <source>site.data.collect</source>
+        <target>__site.data.collect</target>
+      </trans-unit>
+      <trans-unit id="I_t7Xuq" resname="site.own.user.mind">
+        <source>site.own.user.mind</source>
+        <target>__site.own.user.mind</target>
+      </trans-unit>
+      <trans-unit id="wDzycDL" resname="obligation.or.not">
+        <source>obligation.or.not</source>
+        <target>__obligation.or.not</target>
+      </trans-unit>
+      <trans-unit id="LHDyQ0v" resname="site.article.38">
+        <source>site.article.38</source>
+        <target>__site.article.38</target>
+      </trans-unit>
+      <trans-unit id="tjwm1aj" resname="site.personal.user">
+        <source>site.personal.user</source>
+        <target>__site.personal.user</target>
+      </trans-unit>
+      <trans-unit id="sKIc2Dw" resname="site.right.buy">
+        <source>site.right.buy</source>
+        <target>__site.right.buy</target>
+      </trans-unit>
+      <trans-unit id="13jKMr3" resname="site.transition">
+        <source>site.transition</source>
+        <target>__site.transition</target>
+      </trans-unit>
+      <trans-unit id="XOKhxtl" resname="site.cnil">
+        <source>site.cnil</source>
+        <target>__site.cnil</target>
+      </trans-unit>
+      <trans-unit id="VMOLmvy" resname="site.bdd">
+        <source>site.bdd</source>
+        <target>__site.bdd</target>
+      </trans-unit>
+      <trans-unit id="x7ITXuX" resname="site.hyperlink.cookies">
+        <source>site.hyperlink.cookies</source>
+        <target>__site.hyperlink.cookies</target>
+      </trans-unit>
+      <trans-unit id="GdCl_qu" resname="site.links">
+        <source>site.links</source>
+        <target>__site.links</target>
+      </trans-unit>
+      <trans-unit id="R5UYM_z" resname="however">
+        <source>however</source>
+        <target>__however</target>
+      </trans-unit>
+      <trans-unit id="IRLZIo5" resname="site.visit.reponsability">
+        <source>site.visit.reponsability</source>
+        <target>__site.visit.reponsability</target>
+      </trans-unit>
+      <trans-unit id="kX.RDLU" resname="site.navigation">
+        <source>site.navigation</source>
+        <target>__site.navigation</target>
+      </trans-unit>
+      <trans-unit id="oQDGwZp" resname="site.cookies">
+        <source>site.cookies</source>
+        <target>__site.cookies</target>
+      </trans-unit>
+      <trans-unit id="9LmJYS." resname="site.coockies.refuse">
+        <source>site.coockies.refuse</source>
+        <target>__site.coockies.refuse</target>
+      </trans-unit>
+      <trans-unit id="mBNM2is" resname="site.ie">
+        <source>site.ie</source>
+        <target>__site.ie</target>
+      </trans-unit>
+      <trans-unit id="JJLVTqP" resname="site.netscape">
+        <source>site.netscape</source>
+        <target>__site.netscape</target>
+      </trans-unit>
+      <trans-unit id="0LcZAMG" resname="site.sessions">
+        <source>site.sessions</source>
+        <target>__site.sessions</target>
+      </trans-unit>
+      <trans-unit id="hWVLfCT" resname="site.php.cookie">
+        <source>site.php.cookie</source>
+        <target>__site.php.cookie</target>
+      </trans-unit>
+      <trans-unit id="8dDw3BY" resname="other.cookies">
+        <source>other.cookies</source>
+        <target>__other.cookies</target>
+      </trans-unit>
+      <trans-unit id="670AZdE" resname="site.analytics">
+        <source>site.analytics</source>
+        <target>__site.analytics</target>
+      </trans-unit>
+      <trans-unit id="7kB_Ssk" resname="site.right.juridic">
+        <source>site.right.juridic</source>
+        <target>__site.right.juridic</target>
+      </trans-unit>
+      <trans-unit id="ZrEk4TT" resname="site.problem">
+        <source>site.problem</source>
+        <target>__site.problem</target>
+      </trans-unit>
+      <trans-unit id="OVUGqHy" resname="site.law.french">
+        <source>site.law.french</source>
+        <target>__site.law.french</target>
+      </trans-unit>
+      <trans-unit id="16gexYc" resname="site.principal.laws">
+        <source>site.principal.laws</source>
+        <target>__site.principal.laws</target>
+      </trans-unit>
+      <trans-unit id="7BUIp2z" resname="site.78.87">
+        <source>site.78.87</source>
+        <target>__site.78.87</target>
+      </trans-unit>
+      <trans-unit id="w9FZ4kP" resname="site.economy.numeric">
+        <source>site.economy.numeric</source>
+        <target>__site.economy.numeric</target>
+      </trans-unit>
+      <trans-unit id="D_xCZa8" resname="affiliation">
+        <source>affiliation</source>
+        <target>__affiliation</target>
+      </trans-unit>
+      <trans-unit id="ab_IZF." resname="site.no.affiliation">
+        <source>site.no.affiliation</source>
+        <target>__site.no.affiliation</target>
+      </trans-unit>
+      <trans-unit id="JNZJlPc" resname="lexic">
+        <source>lexic</source>
+        <target>__lexic</target>
+      </trans-unit>
+      <trans-unit id="zThP1l_" resname="site.user.web">
+        <source>site.user.web</source>
+        <target>__site.user.web</target>
+      </trans-unit>
+      <trans-unit id="nspspTu" resname="site.personal.informations">
+        <source>site.personal.informations</source>
+        <target>__site.personal.informations</target>
+      </trans-unit>
+      <trans-unit id="FQA1c3X" resname="page.top">
+        <source>page.top</source>
+        <target>Top of the page</target>
+      </trans-unit>
+      <trans-unit id="D1.tF5H" resname="CV">
+        <source>CV</source>
+        <target>CV</target>
+      </trans-unit>
+      <trans-unit id="OVJTE9y" resname="realisations">
+        <source>realisations</source>
+        <target>__realisations</target>
+      </trans-unit>
+      <trans-unit id="K0JE_yZ" resname="comments">
+        <source>comments</source>
+        <target>__comments</target>
+      </trans-unit>
+      <trans-unit id="CT59X9u" resname="contact">
+        <source>contact</source>
+        <target>__contact</target>
+      </trans-unit>
+      <trans-unit id="p1RObcQ" resname="download.cv">
+        <source>download.cv</source>
+        <target>__download.cv</target>
+      </trans-unit>
+      <trans-unit id="lwjwG44" resname="Même en">
+        <source>Même en</source>
+        <target>__Même en</target>
+      </trans-unit>
+      <trans-unit id="eS_Tfw2" resname="reconversion">
+        <source>reconversion</source>
+        <target>__reconversion</target>
+      </trans-unit>
+      <trans-unit id="0kapFVI" resname="nous pouvons réussir">
+        <source>nous pouvons réussir</source>
+        <target>__nous pouvons réussir</target>
+      </trans-unit>
+      <trans-unit id="GNt1sI1" resname="Travailler avec">
+        <source>Travailler avec</source>
+        <target>__Travailler avec</target>
+      </trans-unit>
+      <trans-unit id="drHuWC2" resname="passion">
+        <source>passion</source>
+        <target>__passion</target>
+      </trans-unit>
+      <trans-unit id="q9bCNyj" resname="A la recherche de la">
+        <source>A la recherche de la</source>
+        <target>__A la recherche de la</target>
+      </trans-unit>
+      <trans-unit id="_qHO7pw" resname="statisfaction">
+        <source>statisfaction</source>
+        <target>__statisfaction</target>
+      </trans-unit>
+      <trans-unit id="LnVw2Nh" resname="Benjamin Manguet - Connexion">
+        <source>Benjamin Manguet - Connexion</source>
+        <target>__Benjamin Manguet - Connexion</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target>__Connexion</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>__Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="vKw_KM8" resname="same.in">
+        <source>same.in</source>
+        <target>__same.in</target>
+      </trans-unit>
+      <trans-unit id="l476eux" resname="we.can">
+        <source>we.can</source>
+        <target>__we.can</target>
+      </trans-unit>
+      <trans-unit id="cFykEvI" resname="work.with">
+        <source>work.with</source>
+        <target>__work.with</target>
+      </trans-unit>
+      <trans-unit id="ZvYtGAf" resname="research">
+        <source>research</source>
+        <target>__research</target>
+      </trans-unit>
+      <trans-unit id="Onh.7.a" resname="legals.mentions">
+        <source>legals.mentions</source>
+        <target>__legals.mentions</target>
+      </trans-unit>
+      <trans-unit id="S75FxhF" resname="site.2021">
+        <source>site.2021</source>
+        <target>__site.2021</target>
+      </trans-unit>
+      <trans-unit id="DL7OO1k" resname="web.mobile">
+        <source>web.mobile</source>
+        <target>__web.mobile</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

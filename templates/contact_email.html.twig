@@ -1,0 +1,53 @@
+<div>
+    <div style="text-align: center">
+        <h1 style="color: #28B7E3">Le formulaire de contact a été soumis sur le porfolio</h1>
+    </div>
+    <hr>
+    <br/>
+    <div>
+        <h2>Voici les informations le concernant :</h2>
+    </div>
+    <br />
+
+    {% if formData.lastname is defined and formData.lastname != null %}
+        <div>
+            <span style="color: #28B7E3">Nom :</span> {{ formData.lastname }}
+        </div>
+        <br />
+    {% endif %}
+
+    {% if formData.firstname is defined and formData.firstname != null %}
+        <div>
+            <span style="color: #28B7E3">Prénom :</span> {{ formData.firstname }}
+        </div>
+        <br />
+    {% endif %}
+
+    {% if formData.contact is defined and formData.contact != null %}
+        <div>
+            <span style="color: #28B7E3">Type de contact :</span> {{ formData.contact }}
+        </div>
+        <br />
+    {% endif %}
+
+    {% if formData.phone is defined and formData.phone != null %}
+        <div>
+            <span style="color: #28B7E3">Téléphone :</span> {{ formData.phone }}
+        </div>
+        <br />
+    {% endif %}
+
+    {% if formData.email is defined and formData.email != null %}
+        <div>
+            <span style="color: #28B7E3">Email :</span> {{ formData.email }}
+        </div>
+        <br />
+    {% endif %}
+
+    {% if formData.message is defined and formData.message != null %}
+        <div>
+            <span style="color: #28B7E3">Message :</span> {{ formData.message }}
+        </div>
+        <br />
+    {% endif %}
+</div>

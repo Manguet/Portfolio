@@ -1,0 +1,36 @@
+{{ form_start(form) }}
+
+<div class="container">
+    <div data-aos="zoom-in-up">
+        {{ form_label(form.lastname) }}
+        {{ form_widget(form.lastname) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-down">
+        {{ form_label(form.firstname) }}
+        {{ form_widget(form.firstname) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-up">
+        {{ form_label(form.contact) }}
+        {{ form_widget(form.contact) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-down">
+        {{ form_label(form.phone) }}
+        {{ form_widget(form.phone) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-up">
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-down">
+        {{ form_label(form.message) }}
+        {{ form_widget(form.message) }}
+    </div>
+    <div class="mt-2" data-aos="zoom-in-up">
+        {{ form_label(form.captcha) }}
+        {{ form_widget(form.captcha) }}
+    </div>
+    <div class="d-flex justify-content-center align-items-center" data-aos="zoom-in-down">
+        {{ form_widget(form.save) }}
+    </div>
+</div>
+{{ form_end(form) }}

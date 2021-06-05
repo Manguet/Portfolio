@@ -1,0 +1,27 @@
+$parallax-image: (
+        "1": url("../../../images/paralax-1.jpg"),
+        "2": url("../../../images/paralax-2.jpg"),
+        "3": url("../../../images/paralax-3.jpg"),
+);
+
+.parallax {
+  height: 40vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @each $name, $image in $parallax-image {
+    &--#{$name} {
+      background-image: $image;
+    }
+  }
+}
+
+.paralax-text {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15vh;
+  padding-left: 10vw;
+}

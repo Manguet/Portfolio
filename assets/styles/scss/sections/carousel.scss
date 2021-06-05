@@ -1,0 +1,298 @@
+.bg-carousel {
+  width: 100vw;
+  height: 100vh;
+  animation: zoominout 15s infinite;
+}
+
+.wrapper-carousel {
+  overflow: hidden;
+}
+
+@keyframes zoominout {
+  0% {
+    transform: scale(1,1);
+  }
+  50% {
+    transform: scale(1.2,1.2);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+.text-on-carousel {
+  position: absolute;
+  top: 5vh;
+  margin-left: 30vw;
+  color: $white;
+
+  h1 {
+    font-size: 5em;
+    font-family: $title;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  @mixin btn-border-drawing($color: #ccc, $hover: $black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
+    box-shadow: inset 0 0 0 $width $color;
+    color: $color;
+    transition: color $duration $duration/3;
+    position: relative;
+
+    &::before,
+    &::after {
+      border: 0 solid transparent;
+      box-sizing: border-box;
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      width: 0; height: 0;
+
+      #{$vertical}: 0;
+      #{$horizontal}: 0;
+    }
+
+    &::before {
+      $h-side: if($horizontal == 'left', 'right', 'left');
+
+      border-#{$vertical}-width: $width;
+      border-#{$h-side}-width: $width;
+    }
+
+    &::after {
+      $v-side: if($vertical == 'top', 'bottom', 'top');
+
+      border-#{$v-side}-width: $width;
+      border-#{$horizontal}-width: $width;
+    }
+
+    &:hover {
+      color: $hover;
+
+      &::before,
+      &::after {
+        border-color: $hover;
+        transition: border-color 0s, width $duration, height $duration;
+        width: 100%;
+        height: 100%;
+      }
+
+      &::before { transition-delay: 0s, 0s, $duration; }
+
+      &::after { transition-delay: 0s, $duration, 0s; }
+    }
+  }
+
+  .draw-border {
+    @include btn-border-drawing($white, $blue, 4px, bottom, right);
+  }
+
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+
+    &:focus { outline: 2px dotted $white; }
+  }
+
+  .terminal-div {
+    border: 1px solid $white;
+    margin-left: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: transparentize($black, 0.3%);
+  }
+
+  .css-typing p {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .css-typing p:nth-child(1) {
+    width: 15em;
+    -webkit-animation: type 1s steps(40, end);
+    animation: type 1s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(2) {
+    width: 1em;
+    opacity: 0;
+    -webkit-animation: type2 0.5s steps(40, end);
+    animation: type2 0.5s steps(40, end);
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(3) {
+    width: 12em;
+    opacity: 0;
+    -webkit-animation: type3 1s steps(40, end);
+    animation: type3 1s steps(40, end);
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(4) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    animation: type3 2s steps(40, end);
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(5) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    animation: type3 2s steps(40, end);
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(6) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    animation: type3 2s steps(40, end);
+    -webkit-animation-delay: 8.5s;
+    animation-delay: 8.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(7) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    animation: type3 2s steps(40, end);
+    -webkit-animation-delay: 10.5s;
+    animation-delay: 10.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(8) {
+    width: 20em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    animation: type3 2s steps(40, end);
+    -webkit-animation-delay: 12.5s;
+    animation-delay: 12.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(9) {
+    width: 2em;
+    opacity: 0;
+    -webkit-animation: type3 0.5s steps(40, end);
+    animation: type3 0.5s steps(40, end);
+    -webkit-animation-delay: 14.5s;
+    animation-delay: 14.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid $blue;
+    }
+    100% {
+      border: none;
+    }
+  }
+
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid $blue;
+    }
+    100% {
+      border: none;
+    }
+  }
+
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid $blue;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid $blue;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid $blue;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .marge {
+    margin-left: 30px;
+  }
+}

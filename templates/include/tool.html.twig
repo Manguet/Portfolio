@@ -1,0 +1,158 @@
+<div class="tool">
+    <button type="button"
+            class="invisible-btn replace-blue-icon"
+            data-toggle="modal"
+            data-target="#toolModal"
+    >
+        <i class="fas fa-cog"></i>
+    </button>
+</div>
+
+<div class="modal fade"
+     id="toolModal"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="toolModal"
+     aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h5 class="modal-title"
+                    id="toolModal"
+                >
+                    {% trans %}
+                        choose.theme
+                    {% endtrans %}
+                </h5>
+
+                <button type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row text-center base-color-blue">
+                    <div class="col-6">
+                        <button id="light"
+                                class="color-button color-button--light"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="light"
+                        ></button>
+                        {% trans %}
+                            light
+                        {% endtrans %}
+                    </div>
+
+                    <div class="col-6">
+                        <button id="dark"
+                                class="color-button color-button--dark"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="dark"
+                        ></button>
+                        {% trans %}
+                            dark
+                        {% endtrans %}
+                    </div>
+
+                </div>
+                <div class="row text-center">
+                    <div class="col-4">
+                        <button id="blue"
+                                class="color-button color-button--blue"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="blue"
+                        ></button>
+                        {% trans %}
+                            blue
+                        {% endtrans %}
+                    </div>
+
+                    <div class="col-4">
+                        <button id="orange"
+                                class="color-button color-button--orange"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="orange"
+                        ></button>
+                        {% trans %}
+                            orange
+                        {% endtrans %}
+                    </div>
+
+                    <div class="col-4">
+                        <button id="yellow"
+                                class="color-button color-button--yellow"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="yellow"
+                        ></button>
+                        {% trans %}
+                            yellow
+                        {% endtrans %}
+                    </div>
+
+                </div>
+
+                <div class="row text-center">
+
+                    <div class="col-4">
+                        <button id="pruple"
+                                class="color-button color-button--purple"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="purple"
+                        ></button>
+                        {% trans %}
+                            purple
+                        {% endtrans %}
+                    </div>
+
+                    <div class="col-4">
+                        <button id="green"
+                                class="color-button color-button--green"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="green"
+                        ></button>
+                        {% trans %}
+                            green
+                        {% endtrans %}
+                    </div>
+
+                    <div class="col-4">
+                        <button id="red"
+                                class="color-button color-button--red"
+                                data-controller="color"
+                                data-action="color#changeTheme"
+                                data-color-new-color-class="red"
+                        ></button>
+                        {% trans %}
+                            red
+                        {% endtrans %}
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                >
+                    {% trans %}
+                        close
+                    {% endtrans %}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.to-top {
+  z-index: 9;
+  opacity: 0.4;
+  margin: 10px;
+  position: fixed;
+  bottom: 8vh;
+  right: 0;
+  font-size: 3em;
+
+  &:hover {
+
+    opacity: 1;
+  }
+}

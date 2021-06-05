@@ -1,0 +1,15 @@
+<div class="wrapper-carousel" id="header">
+    <img src="{{ asset('build/images/Ordinateur.jpg') }}"
+         alt="{% trans %}Fond d'écran{% endtrans %}"
+         class="bg-carousel"
+    >
+
+    <div class="text-on-carousel">
+        <h1>{{ user.firstname }} {{ user.lastname }}</h1>
+
+        <h2 class="blue-subtitle">{% trans %}job{% endtrans %}</h2>
+
+        {% include 'include/terminal.html.twig' %}
+    </div>
+
+</div>
