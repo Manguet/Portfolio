@@ -2,6 +2,14 @@
   width: 100vw;
   height: 100vh;
   animation: zoominout 15s infinite;
+  display: none;
+}
+
+.bg-carousel-mobile {
+  width: 100vw;
+  height: 100vh;
+  animation: zoominout 15s infinite;
+  display: block;
 }
 
 .wrapper-carousel {
@@ -22,91 +30,38 @@
 
 .text-on-carousel {
   position: absolute;
-  top: 5vh;
-  margin-left: 30vw;
+  top: 34vh;
   color: $white;
 
+  .carousel-titles {
+    text-align: center;
+    width: 96vw;
+  }
+
   h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: $title;
   }
 
   h2 {
     font-weight: bold;
   }
+}
 
-  @mixin btn-border-drawing($color: #ccc, $hover: $black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
-    box-shadow: inset 0 0 0 $width $color;
-    color: $color;
-    transition: color $duration $duration/3;
-    position: relative;
+.terminal-main-div {
+  display: flex;
+  justify-content: center;
+}
 
-    &::before,
-    &::after {
-      border: 0 solid transparent;
-      box-sizing: border-box;
-      content: '';
-      pointer-events: none;
-      position: absolute;
-      width: 0; height: 0;
-
-      #{$vertical}: 0;
-      #{$horizontal}: 0;
-    }
-
-    &::before {
-      $h-side: if($horizontal == 'left', 'right', 'left');
-
-      border-#{$vertical}-width: $width;
-      border-#{$h-side}-width: $width;
-    }
-
-    &::after {
-      $v-side: if($vertical == 'top', 'bottom', 'top');
-
-      border-#{$v-side}-width: $width;
-      border-#{$horizontal}-width: $width;
-    }
-
-    &:hover {
-      color: $hover;
-
-      &::before,
-      &::after {
-        border-color: $hover;
-        transition: border-color 0s, width $duration, height $duration;
-        width: 100%;
-        height: 100%;
-      }
-
-      &::before { transition-delay: 0s, 0s, $duration; }
-
-      &::after { transition-delay: 0s, $duration, 0s; }
-    }
-  }
-
-  .draw-border {
-    @include btn-border-drawing($white, $blue, 4px, bottom, right);
-  }
-
-  .btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    line-height: 1.5;
-    padding: 1em 2em;
-    letter-spacing: 0.05rem;
-
-    &:focus { outline: 2px dotted $white; }
-  }
-
-  .terminal-div {
-    border: 1px solid $white;
-    margin-left: 20vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    background-color: transparentize($black, 0.3%);
-  }
+.terminal-div {
+  color: $white;
+  position: absolute;
+  display: none;
+  border: 1px solid $white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: transparentize($black, 0.3%);
+  width: fit-content;
 
   .css-typing p {
     white-space: nowrap;
@@ -294,5 +249,116 @@
 
   .marge {
     margin-left: 30px;
+  }
+
+  @mixin btn-border-drawing($color: #ccc, $hover: $black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
+    box-shadow: inset 0 0 0 $width $color;
+    color: $color;
+    transition: color $duration $duration/3;
+    position: relative;
+
+    &::before,
+    &::after {
+      border: 0 solid transparent;
+      box-sizing: border-box;
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      width: 0; height: 0;
+
+      #{$vertical}: 0;
+      #{$horizontal}: 0;
+    }
+
+    &::before {
+      $h-side: if($horizontal == 'left', 'right', 'left');
+
+      border-#{$vertical}-width: $width;
+      border-#{$h-side}-width: $width;
+    }
+
+    &::after {
+      $v-side: if($vertical == 'top', 'bottom', 'top');
+
+      border-#{$v-side}-width: $width;
+      border-#{$horizontal}-width: $width;
+    }
+
+    &:hover {
+      color: $hover;
+
+      &::before,
+      &::after {
+        border-color: $hover;
+        transition: border-color 0s, width $duration, height $duration;
+        width: 100%;
+        height: 100%;
+      }
+
+      &::before { transition-delay: 0s, 0s, $duration; }
+
+      &::after { transition-delay: 0s, $duration, 0s; }
+    }
+  }
+
+  .draw-border {
+    @include btn-border-drawing($white, $blue, 4px, bottom, right);
+  }
+
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+
+    &:focus { outline: 2px dotted $white; }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .text-on-carousel {
+
+    h1 {
+      font-size: 5em;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+  .text-on-carousel {
+    top: 10vh;
+  }
+
+  .terminal-div {
+    display: flex;
+    top: 30vh;
+  }
+
+  .bg-carousel {
+    display: block;
+  }
+
+  .bg-carousel-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .text-on-carousel {
+    top: 5vh;
+    margin-left: 30vw;
+
+    .carousel-titles {
+      width: auto;
+    }
+  }
+
+  .terminal-div {
+    margin-left: 50vw;
   }
 }

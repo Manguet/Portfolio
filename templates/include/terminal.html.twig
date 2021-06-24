@@ -1,105 +1,107 @@
 {% autoescape false %}
-    <div class="terminal-div mt-3">
+    <div class="terminal-main-div">
+        <div class="terminal-div mt-3">
 
-        <div class="mt-5 css-typing">
-            <p>
-                        <span class="orange-terminal">
-                            public function
-                        </span>
-                <span class="yellow-terminal">
-                            hello()
-                        </span>
-                : array
-            </p>
-            <p>
-                {
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                = [];
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                [
-                <span class="green-terminal">
-                            'firstname'
-                        </span>
-                ] =
-                <span class="green-terminal">
-                            {% if user is defined %}
-                                '{{ user.firstname }}'
-                            {% endif %}
-                        </span>
-                ;
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                [
-                <span class="green-terminal">
-                            'lastname'
-                        </span>
-                ] =
-                <span class="green-terminal">
-                            {% if user is defined %}
-                                '{{ user.lastname }}'
-                            {% endif %}
-                        </span>;
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                [
-                <span class="green-terminal">
-                            'localisation'
-                        </span>
-                ] =
-                <span class="green-terminal">
-                            {% if user is defined %}
-                                '{{ user.workAt }}'
-                            {% endif %}
-                        </span>
-                ;
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                [
-                <span class="green-terminal">
-                            'available'
-                        </span>
-                ] =
-                <span class="orange-terminal">
-                            {% if user is defined %}
-                                '{{ user.isAvailable }}'
-                            {% endif %}
-                        </span>;
-            </p>
-            <p>
-                <span class="marge"></span>
-                <span class="orange-terminal">
-                            return
-                        </span>
-                <span class="purple-terminal">
-                            $whoAmI
-                        </span>
-                ;
-            </p>
-            <p>
-                }
-            </p>
+            <div class="mt-5 css-typing">
+                <p>
+                            <span class="orange-terminal">
+                                public function
+                            </span>
+                    <span class="yellow-terminal">
+                                hello()
+                            </span>
+                    : array
+                </p>
+                <p>
+                    {
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    = [];
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    [
+                    <span class="green-terminal">
+                                'firstname'
+                            </span>
+                    ] =
+                    <span class="green-terminal">
+                                {% if user is defined %}
+                                    '{{ user.firstname }}'
+                                {% endif %}
+                            </span>
+                    ;
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    [
+                    <span class="green-terminal">
+                                'lastname'
+                            </span>
+                    ] =
+                    <span class="green-terminal">
+                                {% if user is defined %}
+                                    '{{ user.lastname }}'
+                                {% endif %}
+                            </span>;
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    [
+                    <span class="green-terminal">
+                                'localisation'
+                            </span>
+                    ] =
+                    <span class="green-terminal">
+                                {% if user is defined %}
+                                    '{{ user.workAt }}'
+                                {% endif %}
+                            </span>
+                    ;
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    [
+                    <span class="green-terminal">
+                                'available'
+                            </span>
+                    ] =
+                    <span class="orange-terminal">
+                                {% if user is defined %}
+                                    '{{ user.isAvailable }}'
+                                {% endif %}
+                            </span>;
+                </p>
+                <p>
+                    <span class="marge"></span>
+                    <span class="orange-terminal">
+                                return
+                            </span>
+                    <span class="purple-terminal">
+                                $whoAmI
+                            </span>
+                    ;
+                </p>
+                <p>
+                    }
+                </p>
+            </div>
         </div>
     </div>
 {% endautoescape %}

@@ -1,17 +1,6 @@
 <nav class="navbar navbar-expand-lg header-small background-yellow shadow-bottom-yellow fixed-top justify-content-between">
 
     <div>
-        {% if user is defined %}
-            <div class="yellow-title">
-                <img src="{{ asset('build/images/logo.png') }}"
-                     alt="{{ user.firstname }} {{ user.lastname }}"
-                     class="ml-2 logo-small"
-                >
-            </div>
-        {% endif %}
-    </div>
-
-    <div>
         <button class="navbar-toggler yellow-title"
                 type="button"
                 data-toggle="collapse"
@@ -110,5 +99,16 @@
                 {% endfor %}
             </ul>
         </div>
+    </div>
+
+    <div>
+        {% if user is defined %}
+            <div class="yellow-title">
+                <img src="{{ asset('build/images/logo.png') }}"
+                     alt="{{ user.firstname }} {{ user.lastname }}"
+                     class="ml-2 logo-small"
+                >
+            </div>
+        {% endif %}
     </div>
 </nav>

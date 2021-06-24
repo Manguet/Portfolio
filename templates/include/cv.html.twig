@@ -17,8 +17,8 @@
 <div class="cv-field">
 
     <div>
-        <div class="d-flex justify-content-between">
-            <div class="col-5" data-aos="fade-right">
+        <div class="first-cv-fields">
+            <div class="col-l-12 col-xl-5" data-aos="fade-right">
 
                 <div class="text-center">
                     <i class="far fa-comment-alt yellow-icon icon"></i>
@@ -29,13 +29,16 @@
                     </h3>
                 </div>
 
-                <p class="m-5 text-justify base-text-yellow">
+                <p class="m-5 localisation base-text-yellow">
                     {% if age is not null %}
                         <span class="subtitle bolder base-text-yellow">
                             {{ age }} {% trans %}ans{% endtrans %},
                             {% if presentation is not null and app.request.locale == 'fr' %}
+
                                 {{ presentation.liscences }}, {{ presentation.locality }}
+
                             {% elseif presentation is not null %}
+
                                 {{ presentation.liscencesEn }}, {{ presentation.locality }}
                             {% endif %}
                             .
@@ -44,15 +47,18 @@
 
                     <div class="base-text-yellow">
                         {% if presentation is not null and app.request.locale == 'fr' %}
+
                             {{ presentation.presentation|raw }}
+
                         {% elseif presentation is not null %}
+
                             {{ presentation.presentationEn|raw }}
                         {% endif %}
                     </div>
                 </p>
             </div>
 
-            <div class="col-7">
+            <div class="col-l-12 col-xl-7">
 
                 <div class="text-center">
                     <i class="fas fa-laptop-code yellow-icon icon"></i>
@@ -87,7 +93,7 @@
 
     </div>
 
-    <div>
+    <div class="mt-5">
         <h3 class="base-text-yellow">
             <i class="fas fa-chevron-right yellow-icon"></i>
             {% trans %}
@@ -95,31 +101,31 @@
             {% endtrans %}
         </h3>
 
-        <p class="m-5">
+        <div class="timezone">
             {% if app.request.locale == 'fr' %}
                 <timeline-zone></timeline-zone>
             {% else %}
                 <timeline-en-zone></timeline-en-zone>
             {% endif %}
-        </p>
+        </div>
     </div>
 
     <div>
-        <h3 class="base-text-yellow">
+        <h3 class="base-text-yellow mt-5">
             <i class="fas fa-chevron-right yellow-icon"></i>
             {% trans %}
                 more.informations
             {% endtrans %}
         </h3>
-        <div class="m-5">
-            <div class="d-flex justify-content-between align-content-center">
+        <div class="mb-5">
+            <div class="d-flex justify-content-around align-content-center">
 
                 {% for softSkillReference, softSkill in softSkills %}
 
-                    <div class="d-flex flex-column justify-content-around mx-5">
+                    <div class="d-flex flex-column justify-content-around">
 
                         {% for softSkillItem in softSkill %}
-                            <div class="base-text-yellow"
+                            <div class="base-text-yellow d-flex flex-column justify-content-center align-items-center"
                                  data-aos="flip-{% if loop.index is odd %}left{% else %}right{% endif %}"
                             >
                                 <span class="subicon">
@@ -137,10 +143,10 @@
                 {% endfor %}
 
                 {% if langs is not null %}
-                    <div class="d-flex flex-column justify-content-around mx-5">
+                    <div class="d-flex flex-column justify-content-around">
 
                         {% for lang in langs %}
-                            <div class="base-text-yellow"
+                            <div class="base-text-yellow d-flex flex-column justify-content-center align-items-center"
                                  data-aos="flip-{% if loop.index is odd %}left{% else %}right{% endif %}"
                             >
                                 <img class="flag"

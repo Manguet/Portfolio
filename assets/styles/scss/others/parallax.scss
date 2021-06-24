@@ -22,6 +22,29 @@ $parallax-image: (
   font-size: 3em;
   font-weight: bold;
   text-align: center;
-  padding-top: 15vh;
-  padding-left: 10vw;
+  padding-top: 7vh;
+  display: none;
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .paralax-text {
+    display: block;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+
+  .paralax-text {
+    padding-left: 10vw;
+    padding-top: 10vh;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .paralax-text {
+    padding-left: 10vw;
+    padding-top: 15vh;
+  }
 }

@@ -15,13 +15,13 @@
 </div>
 
 <div class="realisation-field">
-    <div class="scene d-flex justify-content-center"
-         data-aos="flip-up"
-     >
+    <div class="scene d-flex justify-content-center">
 
         {% for realisation in realisations %}
 
-            <a href="{{ realisation.site }}" target="_blank">
+            <a href="{{ realisation.site }}" target="_blank"
+               data-aos="flip-up"
+            >
 
                 <div class="card">
                     <div class="card__face card__face--front">

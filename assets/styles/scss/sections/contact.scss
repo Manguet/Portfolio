@@ -1,5 +1,4 @@
 .contact-field {
-  margin-left: 30vw;
   padding-top: 5vh;
   margin-bottom: 5vh;
 
@@ -98,5 +97,12 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .contact-field {
+    margin-left: 30vw;
   }
 }

@@ -4,12 +4,19 @@
          class="bg-carousel"
     >
 
+    <img src="{{ asset('build/images/mobile.jpg') }}"
+         alt="{% trans %}Fond d'écran{% endtrans %}"
+         class="bg-carousel-mobile"
+    >
+
     <div class="text-on-carousel">
-        <h1>{{ user.firstname }} {{ user.lastname }}</h1>
+        <div class="d-flex justify-content-center flex-column carousel-titles">
+            <h1>{{ user.firstname }} {{ user.lastname }}</h1>
 
-        <h2 class="yellow-subtitle">{% trans %}job{% endtrans %}</h2>
-
-        {% include 'include/terminal.html.twig' %}
+            <h2 class="yellow-subtitle">{% trans %}job{% endtrans %}</h2>
+        </div>
     </div>
+
+    {% include 'include/terminal.html.twig' %}
 
 </div>

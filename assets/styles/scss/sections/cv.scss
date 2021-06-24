@@ -1,5 +1,4 @@
 .cv-field {
-  margin-left: 30vw;
   padding-top: 5vh;
 
   .icon {
@@ -74,5 +73,33 @@
 
   .flag {
     width: 50px;
+  }
+
+  .localisation {
+    text-align: center;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+
+  .timezone {
+    margin: 5rem !important;
+  }
+
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .cv-field {
+    margin-left: 30vw;
+
+    .first-cv-fields {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .localisation {
+      text-align: justify;
+    }
   }
 }
