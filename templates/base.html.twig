@@ -49,11 +49,8 @@
 </script>
 
 <script type="text/javascript">
-    let lat = 44.794680;
-    let lon = -0.654240;
-    let macarte = null;
 
-    function initMap() {
+    function initMap(lat, lon, macarte) {
         let iconBase = '{{ asset('build/images/logo.png') }}';
         let myIcon = L.icon({
             iconUrl: iconBase,
@@ -74,7 +71,6 @@
             maxZoom: 20
         }).addTo(macarte);
     }
-    window.onload = function(){
-        initMap();
-    };
+
+    initMap(44.794680, -0.654240, null);
 </script>

@@ -37,5 +37,3 @@ $('#download').on('click', function (e) {
             window.URL.revokeObjectURL(url);
         })
 })
-
-initMap();

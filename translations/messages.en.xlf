@@ -187,11 +187,11 @@
       </trans-unit>
       <trans-unit id="Izdmr4e" resname="site.presentation.one">
         <source>site.presentation.one</source>
-        <target>__site.presentation.one</target>
+        <target>Under article 6 of law n ° 2004-575 of June 21, 2004 on confidence in the digital economy, users are informed in website</target>
       </trans-unit>
       <trans-unit id="YSOI5a2" resname="identity.follow">
         <source>identity.follow</source>
-        <target>__identity.follow</target>
+        <target>the identity of the various stakeholders in the context of its implementation and monitoring:</target>
       </trans-unit>
       <trans-unit id="TBApaX7" resname="owner">
         <source>owner</source>
@@ -203,7 +203,7 @@
       </trans-unit>
       <trans-unit id="XwrGKTQ" resname="publication.responsable">
         <source>publication.responsable</source>
-        <target>__publication.responsable</target>
+        <target>Publication manager</target>
       </trans-unit>
       <trans-unit id="gpRUfp." resname="webmaster">
         <source>webmaster</source>
@@ -211,283 +211,283 @@
       </trans-unit>
       <trans-unit id="R0CuY0e" resname="host">
         <source>host</source>
-        <target>__host</target>
+        <target>Host</target>
       </trans-unit>
       <trans-unit id="ayPoLvK" resname="general.conditions">
         <source>general.conditions</source>
-        <target>__general.conditions</target>
+        <target>General conditions of use of the site and the services offered</target>
       </trans-unit>
       <trans-unit id="TCA4ILj" resname="user.site">
         <source>user.site</source>
-        <target>__user.site</target>
+        <target>Use of the website</target>
       </trans-unit>
       <trans-unit id="PRhqJHu" resname="site.accept.conditions">
         <source>site.accept.conditions</source>
-        <target>__site.accept.conditions</target>
+        <target>implies full acceptance of the general conditions of use described below. These conditions of use are likely to be modified or supplemented at any time, users of the website</target>
       </trans-unit>
       <trans-unit id="bGfAOD1" resname="consult.legals">
         <source>consult.legals</source>
-        <target>__consult.legals</target>
+        <target>are therefore invited to consult them on a regular basis</target>
       </trans-unit>
       <trans-unit id="YJYOTRM" resname="site.maintenance">
         <source>site.maintenance</source>
-        <target>__site.maintenance</target>
+        <target>This site is normally accessible to users at all times. An interruption due to technical maintenance may however be decided by</target>
       </trans-unit>
       <trans-unit id="CMEuv.v" resname="site.maintenance.hours">
         <source>site.maintenance.hours</source>
-        <target>__site.maintenance.hours</target>
+        <target>who will then endeavor to communicate to users beforehand the dates and times of the intervention</target>
       </trans-unit>
       <trans-unit id="_64EGwL" resname="site">
         <source>site</source>
-        <target>__site</target>
+        <target>The website</target>
       </trans-unit>
       <trans-unit id="EkkwIVx" resname="site.maj">
         <source>site.maj</source>
-        <target>__site.maj</target>
+        <target>is updated regularly by</target>
       </trans-unit>
       <trans-unit id="yePIz81" resname="site.legals.modify">
         <source>site.legals.modify</source>
-        <target>__site.legals.modify</target>
+        <target>Likewise, the legal notices can be modified at any time: they are nevertheless binding on the user who is invited to refer to them as often as possible in order to become acquainted with them.</target>
       </trans-unit>
       <trans-unit id="Qb1HbiT" resname="services.description">
         <source>services.description</source>
-        <target>__services.description</target>
+        <target>Provided services description</target>
       </trans-unit>
       <trans-unit id="74kEFxI" resname="site.activity">
         <source>site.activity</source>
-        <target>__site.activity</target>
+        <target>aims to provide information on all of the company's activities</target>
       </trans-unit>
       <trans-unit id="N7A2KeM" resname="site.todo">
         <source>site.todo</source>
-        <target>__site.todo</target>
+        <target>strives to provide on the website</target>
       </trans-unit>
       <trans-unit id=".NOvggR" resname="site.responsability">
         <source>site.responsability</source>
-        <target>__site.responsability</target>
+        <target>informations as precise as possible. However, it cannot be held responsible for omissions, inaccuracies and deficiencies in the update, whether by itself or by third party partners who provide it with this information.</target>
       </trans-unit>
       <trans-unit id="syTmEgT" resname="site.all.informations">
         <source>site.all.informations</source>
-        <target>__site.all.informations</target>
+        <target>All the information indicated on the site</target>
       </trans-unit>
       <trans-unit id="mgMCRgn" resname="site.informations.indications">
         <source>site.informations.indications</source>
-        <target>__site.informations.indications</target>
+        <target>are given for information only, and are subject to change. In addition, the information on the site</target>
       </trans-unit>
       <trans-unit id="ykOx1J6" resname="site.informations.last">
         <source>site.informations.last</source>
-        <target>__site.informations.last</target>
+        <target>are not exhaustive. They are given subject to modifications having been made since they were put online.</target>
       </trans-unit>
       <trans-unit id="lCxz85H" resname="site.limits">
         <source>site.limits</source>
-        <target>__site.limits</target>
+        <target>Contractual limitations on technical data</target>
       </trans-unit>
       <trans-unit id="xykFMnW" resname="site.javascript">
         <source>site.javascript</source>
-        <target>__site.javascript</target>
+        <target>The site uses JavaScript technology</target>
       </trans-unit>
       <trans-unit id="eaKT2It" resname="site.material">
         <source>site.material</source>
-        <target>__site.material</target>
+        <target>The website cannot be held responsible for material damage related to the use of the site. In addition, the user of the site undertakes to access the site using recent equipment, which does not contain viruses and with an up-to-date latest generation browser.</target>
       </trans-unit>
       <trans-unit id="G3H2b4F" resname="site.intellectual">
         <source>site.intellectual</source>
-        <target>__site.intellectual</target>
+        <target>Intellectual property and counterfeits</target>
       </trans-unit>
       <trans-unit id="oKT8U7f" resname="site.intellectual.property">
         <source>site.intellectual.property</source>
-        <target>__site.intellectual.property</target>
+        <target>is the owner of the intellectual property rights or holds the rights of use on all the elements accessible on the site, in particular the texts, images, graphics, logo, icons, sounds, software</target>
       </trans-unit>
       <trans-unit id="190U885" resname="site.authorizations">
         <source>site.authorizations</source>
-        <target>__site.authorizations</target>
+        <target>Any reproduction, representation, modification, publication, adaptation of all or part of the elements of the site, whatever the means or process used, is prohibited without the prior written authorization of</target>
       </trans-unit>
       <trans-unit id="01UFueg" resname="site.exploitation">
         <source>site.exploitation</source>
-        <target>__site.exploitation</target>
+        <target>Any unauthorized use of the site or any of the elements it contains will be considered as constituting an infringement and prosecuted in accordance with the provisions of articles L.335-2 and following of the Intellectual Property Code.</target>
       </trans-unit>
       <trans-unit id="_t5X9jT" resname="site.limits.responsability">
         <source>site.limits.responsability</source>
-        <target>__site.limits.responsability</target>
+        <target>Limitations of Liability</target>
       </trans-unit>
       <trans-unit id="hPBCx7t" resname="site.access.responsability">
         <source>site.access.responsability</source>
-        <target>__site.access.responsability</target>
+        <target>cannot be held responsible for direct or indirect damage caused to the user's equipment when accessing the website</target>
       </trans-unit>
       <trans-unit id="..V1XZ." resname="site.reponsability.4">
         <source>site.reponsability.4</source>
-        <target>__site.reponsability.4</target>
+        <target>and resulting either from the use of equipment that does not meet the specifications indicated in point 4, or from the appearance of a bug or incompatibility</target>
       </trans-unit>
       <trans-unit id="AGohmY2" resname="site.responsability.damage">
         <source>site.responsability.damage</source>
-        <target>__site.responsability.damage</target>
+        <target>cannot also be held responsible for indirect damages (such as for example a loss of market or loss of a chance) consecutive to the use of the site</target>
       </trans-unit>
       <trans-unit id="kO3OqIb" resname="site.interactif">
         <source>site.interactif</source>
-        <target>__site.interactif</target>
+        <target>Interactive spaces (possibility to ask questions in the contact space) are available to users</target>
       </trans-unit>
       <trans-unit id="qOIB4.k" resname="site.delete.rights">
         <source>site.delete.rights</source>
-        <target>__site.delete.rights</target>
+        <target>reserves the right to remove, without prior notice, any content posted in this space that would violate the law applicable in France, in particular the provisions relating to data protection. If applicable</target>
       </trans-unit>
       <trans-unit id="14EPkGj" resname="site.civil.responsability">
         <source>site.civil.responsability</source>
-        <target>__site.civil.responsability</target>
+        <target>also reserves the right to question the civil and / or criminal liability of the user, in particular in the event of a racist, abusive, defamatory or pornographic message, whatever the medium used (text, photography, etc.)</target>
       </trans-unit>
       <trans-unit id="e4jf4Rf" resname="site.personal.data">
         <source>site.personal.data</source>
-        <target>__site.personal.data</target>
+        <target>Management of personal data</target>
       </trans-unit>
       <trans-unit id="caA7xJV" resname="site.penal">
         <source>site.penal</source>
-        <target>__site.penal</target>
+        <target>In France, personal data is protected in particular by law n ° 78-87 of January 6, 1978, law n ° 2004-801 of August 6, 2004, article L. 226-13 of the Penal Code and the European Directive of October 24, 1995</target>
       </trans-unit>
       <trans-unit id="ytYAMJs" resname="site.use.moment">
         <source>site.use.moment</source>
-        <target>__site.use.moment</target>
+        <target>On the occasion of the use of the website</target>
       </trans-unit>
       <trans-unit id="iGOvv0X" resname="site.url">
         <source>site.url</source>
-        <target>__site.url</target>
+        <target>can be collected: the URL of the links through which the user accessed the site</target>
       </trans-unit>
       <trans-unit id="jgkDj2X" resname="site.protocol">
         <source>site.protocol</source>
-        <target>__site.protocol</target>
+        <target>the user's access provider, the user's Internet Protocol (IP) address</target>
       </trans-unit>
       <trans-unit id="an7x7Z8" resname="cause">
         <source>cause</source>
-        <target>__cause</target>
+        <target>In any case</target>
       </trans-unit>
       <trans-unit id="GoYe8zS" resname="site.data.collect">
         <source>site.data.collect</source>
-        <target>__site.data.collect</target>
+        <target>only collects personal information about the user for the needs of certain services offered by the website</target>
       </trans-unit>
       <trans-unit id="I_t7Xuq" resname="site.own.user.mind">
         <source>site.own.user.mind</source>
-        <target>__site.own.user.mind</target>
+        <target>The user provides this information with full knowledge of the facts, in particular when he enters it himself. It is then specified to the user of the website</target>
       </trans-unit>
       <trans-unit id="wDzycDL" resname="obligation.or.not">
         <source>obligation.or.not</source>
-        <target>__obligation.or.not</target>
+        <target>the obligation or not to provide this information</target>
       </trans-unit>
       <trans-unit id="LHDyQ0v" resname="site.article.38">
         <source>site.article.38</source>
-        <target>__site.article.38</target>
+        <target>In accordance with the provisions of articles 38 and following of the law 78-17 of January 6, 1978 relating to data processing, files and freedoms, any user has a right of access, rectification and opposition to personal data. concerning him, by making his written and signed request, accompanied by a copy of the identity document with signature of the holder of the document, specifying the address to which the response must be sent</target>
       </trans-unit>
       <trans-unit id="tjwm1aj" resname="site.personal.user">
         <source>site.personal.user</source>
-        <target>__site.personal.user</target>
+        <target>No personal information of the user of the website</target>
       </trans-unit>
       <trans-unit id="sKIc2Dw" resname="site.right.buy">
         <source>site.right.buy</source>
-        <target>__site.right.buy</target>
+        <target>is not published without the knowledge of the user, exchanged, transferred, assigned or sold on any medium whatsoever to third parties. Only the assumption of the repurchase of</target>
       </trans-unit>
       <trans-unit id="13jKMr3" resname="site.transition">
         <source>site.transition</source>
-        <target>__site.transition</target>
+        <target>and his rights would allow the transmission of said information to the possible purchaser who would in turn be bound by the same obligation to store and modify data with regard to the user of the website</target>
       </trans-unit>
       <trans-unit id="XOKhxtl" resname="site.cnil">
         <source>site.cnil</source>
-        <target>__site.cnil</target>
+        <target>The site is not declared to the CNIL because it does not collect personal information</target>
       </trans-unit>
       <trans-unit id="VMOLmvy" resname="site.bdd">
         <source>site.bdd</source>
-        <target>__site.bdd</target>
+        <target>The databases are protected by the provisions of the law of July 1, 1998 transposing Directive 96/9 of March 11, 1996 on the legal protection of databases.</target>
       </trans-unit>
       <trans-unit id="x7ITXuX" resname="site.hyperlink.cookies">
         <source>site.hyperlink.cookies</source>
-        <target>__site.hyperlink.cookies</target>
+        <target>Hypertext links and cookies</target>
       </trans-unit>
       <trans-unit id="GdCl_qu" resname="site.links">
         <source>site.links</source>
-        <target>__site.links</target>
+        <target>contains a number of hypertext links to other sites, set up with the permission of</target>
       </trans-unit>
       <trans-unit id="R5UYM_z" resname="however">
         <source>however</source>
-        <target>__however</target>
+        <target>However</target>
       </trans-unit>
       <trans-unit id="IRLZIo5" resname="site.visit.reponsability">
         <source>site.visit.reponsability</source>
-        <target>__site.visit.reponsability</target>
+        <target>does not have the possibility to check the content of the sites thus visited, and will therefore not assume any responsibility for this fact</target>
       </trans-unit>
       <trans-unit id="kX.RDLU" resname="site.navigation">
         <source>site.navigation</source>
-        <target>__site.navigation</target>
+        <target>Website navigation</target>
       </trans-unit>
       <trans-unit id="oQDGwZp" resname="site.cookies">
         <source>site.cookies</source>
-        <target>__site.cookies</target>
+        <target>may cause the installation of cookie (s) on the user's computer. A cookie is a small file, which does not allow the identification of the user, but which records information relating to the navigation of a computer on a site. The data thus obtained are intended to facilitate subsequent navigation on the site, and are also intended to allow various measures of attendance.</target>
       </trans-unit>
       <trans-unit id="9LmJYS." resname="site.coockies.refuse">
         <source>site.coockies.refuse</source>
-        <target>__site.coockies.refuse</target>
+        <target>Refusing to install a cookie may make it impossible to access certain services. The user can however configure his computer as follows, to refuse the installation of cookies</target>
       </trans-unit>
       <trans-unit id="mBNM2is" resname="site.ie">
         <source>site.ie</source>
-        <target>__site.ie</target>
+        <target>In Internet Explorer: tool tab / internet options. Click on Privacy and choose Block all cookies. Validate on Ok</target>
       </trans-unit>
       <trans-unit id="JJLVTqP" resname="site.netscape">
         <source>site.netscape</source>
-        <target>__site.netscape</target>
+        <target>Under Netscape: edition / preferences tab. Click on Advanced and choose Disable cookies. Validate on Ok</target>
       </trans-unit>
       <trans-unit id="0LcZAMG" resname="site.sessions">
         <source>site.sessions</source>
-        <target>__site.sessions</target>
+        <target>Session cookies on this site</target>
       </trans-unit>
       <trans-unit id="hWVLfCT" resname="site.php.cookie">
         <source>site.php.cookie</source>
-        <target>__site.php.cookie</target>
+        <target>PHP-specific session cookie</target>
       </trans-unit>
       <trans-unit id="8dDw3BY" resname="other.cookies">
         <source>other.cookies</source>
-        <target>__other.cookies</target>
+        <target>Other cookies</target>
       </trans-unit>
       <trans-unit id="670AZdE" resname="site.analytics">
         <source>site.analytics</source>
-        <target>__site.analytics</target>
+        <target>Cookies specific to Google Analytics (statistics)</target>
       </trans-unit>
       <trans-unit id="7kB_Ssk" resname="site.right.juridic">
         <source>site.right.juridic</source>
-        <target>__site.right.juridic</target>
+        <target>Applicable law and attribution of jurisdictionc</target>
       </trans-unit>
       <trans-unit id="ZrEk4TT" resname="site.problem">
         <source>site.problem</source>
-        <target>__site.problem</target>
+        <target>Any dispute in connection with the use of the website</target>
       </trans-unit>
       <trans-unit id="OVUGqHy" resname="site.law.french">
         <source>site.law.french</source>
-        <target>__site.law.french</target>
+        <target>is subject to the competent French courts ruling under French law</target>
       </trans-unit>
       <trans-unit id="16gexYc" resname="site.principal.laws">
         <source>site.principal.laws</source>
-        <target>__site.principal.laws</target>
+        <target>The main laws concerned</target>
       </trans-unit>
       <trans-unit id="7BUIp2z" resname="site.78.87">
         <source>site.78.87</source>
-        <target>__site.78.87</target>
+        <target>Law n ° 78-87 of January 6, 1978, in particular amended by law n ° 2004-801 of August 6, 2004 relating to data processing, files and freedoms</target>
       </trans-unit>
       <trans-unit id="w9FZ4kP" resname="site.economy.numeric">
         <source>site.economy.numeric</source>
-        <target>__site.economy.numeric</target>
+        <target>Law n ° 2004-575 of June 21, 2004 for confidence in the digital economy</target>
       </trans-unit>
       <trans-unit id="D_xCZa8" resname="affiliation">
         <source>affiliation</source>
-        <target>__affiliation</target>
+        <target>Affiliation</target>
       </trans-unit>
       <trans-unit id="ab_IZF." resname="site.no.affiliation">
         <source>site.no.affiliation</source>
-        <target>__site.no.affiliation</target>
+        <target>This website is not associated with any affiliation</target>
       </trans-unit>
       <trans-unit id="JNZJlPc" resname="lexic">
         <source>lexic</source>
-        <target>__lexic</target>
+        <target>Lexicon</target>
       </trans-unit>
       <trans-unit id="zThP1l_" resname="site.user.web">
         <source>site.user.web</source>
-        <target>__site.user.web</target>
+        <target>User: Internet user connecting, using the aforementioned site</target>
       </trans-unit>
       <trans-unit id="nspspTu" resname="site.personal.informations">
         <source>site.personal.informations</source>
-        <target>__site.personal.informations</target>
+        <target>Personal information: "information which allows, in any form whatsoever, directly or indirectly, the identification of the natural persons to whom it applies" (article 4 of law n ° 78-17 of January 6, 1978)</target>
       </trans-unit>
       <trans-unit id="FQA1c3X" resname="page.top">
         <source>page.top</source>
