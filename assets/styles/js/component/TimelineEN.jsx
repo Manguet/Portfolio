@@ -61,10 +61,10 @@ function TimeLine () {
                 iconStyle={{background: '#F4D03F', color: '#FFF'}}
                 icon={<SchoolIcon/>}
             >
-                <h3 className="vertical-timeline-element-title timeline-text">Formation Développeur Web</h3>
-                <h4 className="vertical-timeline-element-subtitle timeline-subtitle timeline-text">Wild Code School Bordeaux</h4>
+                <h3 className="vertical-timeline-element-title timeline-text">Web Developer Training</h3>
+                <h4 className="vertical-timeline-element-subtitle timeline-subtitle timeline-text">Wild Code School, Bordeaux</h4>
                 <p className="timeline-text">
-                    HTML/CSS, SASS, PHP/Symfony, Git, Linux, Projets de formations, Hackathons
+                    HTML/CSS, SASS, PHP/Symfony, Git, Linux, Training projects, Hackathons
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -73,10 +73,10 @@ function TimeLine () {
                 iconStyle={{background: '#28B7E3', color: '#fff'}}
                 icon={<WorkIcon/>}
             >
-                <h3 className="vertical-timeline-element-title timeline-text">Assistant Spécialisé Vétérinaire</h3>
-                <h4 className="vertical-timeline-element-subtitle timeline-text">Clinique Vétérinaire Alliance, Bordeaux</h4>
+                <h3 className="vertical-timeline-element-title timeline-text">Veterinary Assistant</h3>
+                <h4 className="vertical-timeline-element-subtitle timeline-text">Alliance Veterinary Clinic, Bordeaux</h4>
                 <p className="timeline-text">
-                    Gestion des anesthésies, Aide en chirurgie, Préparation des blocs, Soins aux hospitalisés, ...
+                    Anaethesia management, Train for surgery, Bloc preparation, Patients healthcare...
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -85,10 +85,10 @@ function TimeLine () {
                 iconStyle={{background: '#F4D03F', color: '#FFF'}}
                 icon={<WorkIcon/>}
             >
-                <h3 className="vertical-timeline-element-title timeline-text">Membre du Jury et formateur, ASV</h3>
-                <h4 className="vertical-timeline-element-subtitle timeline-text">GIPSA et Sup Veto, Bordeaux</h4>
+                <h3 className="vertical-timeline-element-title timeline-text">Jury member and Veterinairy assistant teacher</h3>
+                <h4 className="vertical-timeline-element-subtitle timeline-text">GIPSA and Sup Veto, Bordeaux</h4>
                 <p className="timeline-text">
-                    Formation et évaluation des candidats pour le passage du titre: Auxiliaire Spécialisé Vétérinaire
+                    Veterinary Assistant candidates' assessment
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -97,10 +97,10 @@ function TimeLine () {
                 iconStyle={{background: '#28B7E3', color: '#fff'}}
                 icon={<WorkIcon/>}
             >
-                <h3 className="vertical-timeline-element-title timeline-text">Assistant Spécialisé Vétérinaire</h3>
-                <h4 className="vertical-timeline-element-subtitle timeline-text">Centres Hospitaliers Vétérinaire, FRANCE</h4>
+                <h3 className="vertical-timeline-element-title timeline-text">Veterinary Assistant</h3>
+                <h4 className="vertical-timeline-element-subtitle timeline-text">Veterinary Hospitals, FRANCE</h4>
                 <p className="timeline-text">
-                    Gestion des anesthésies, Aide en chirurgie, Préparation des blocs, Soins aux hospitalisés, ...
+                    Anaethesia management, Train for surgery, Bloc preparation, Patients healthcare...
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -109,10 +109,10 @@ function TimeLine () {
                 iconStyle={{background: '#F4D03F', color: '#FFF'}}
                 icon={<SchoolIcon/>}
             >
-                <h3 className="vertical-timeline-element-title timeline-text">Auxiliaire Spécialisé Vétérinaire</h3>
+                <h3 className="vertical-timeline-element-title timeline-text">Veterinary Assistant</h3>
                 <h4 className="vertical-timeline-element-subtitle timeline-text">Laval</h4>
                 <p className="timeline-text">
-                    Formation pour l'obtention du titre : Auxiliaire Spécilaisé Vétérinaire.
+                    Veterinary Assistant school
                 </p>
             </VerticalTimelineElement>
         </VerticalTimeline>

@@ -83,11 +83,11 @@
       </trans-unit>
       <trans-unit id="L.TwspH" resname="contact.start">
         <source>contact.start</source>
-        <target>Afin de commencer à échanger</target>
+        <target>Parlez-moi de vous...</target>
       </trans-unit>
       <trans-unit id="ASCjpPs" resname="social.find.me">
         <source>social.find.me</source>
-        <target>Retrouvez moi sur les réseaux sociaux</target>
+        <target>Suivez-moi sur les réseaux sociaux</target>
       </trans-unit>
       <trans-unit id="hwBWq5i" resname="Mention légales">
         <source>Mention légales</source>
@@ -115,7 +115,7 @@
       </trans-unit>
       <trans-unit id="u9efZfh" resname="cv.subtitle">
         <source>cv.subtitle</source>
-        <target>Mes compétences, mon parcours, ...</target>
+        <target>Mes compétences, mon parcours...</target>
       </trans-unit>
       <trans-unit id="v6wxT_." resname="presentation">
         <source>presentation</source>
@@ -143,7 +143,7 @@
       </trans-unit>
       <trans-unit id="iDPgsJv" resname="my.works">
         <source>my.works</source>
-        <target>Une partie des projets sur lesquels j'ai travaillé</target>
+        <target>Une partie de mes projets</target>
       </trans-unit>
       <trans-unit id="WWAdZgN" resname="choose.theme">
         <source>choose.theme</source>
@@ -551,7 +551,7 @@
       </trans-unit>
       <trans-unit id="ZvYtGAf" resname="research">
         <source>research</source>
-        <target>A la recherche de la</target>
+        <target>Mon but, votre</target>
       </trans-unit>
       <trans-unit id="Onh.7.a" resname="legals.mentions">
         <source>legals.mentions</source>

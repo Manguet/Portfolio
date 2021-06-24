@@ -1,16 +1,16 @@
 <div class="text-center mt-5" id="cv">
-    <h2 class="title blue">
+    <h2 class="title yellow">
         {% trans %}
             cv
         {% endtrans %}
     </h2>
-    <h3 class="subtitle-section sub-title-blue">
+    <h3 class="subtitle-section sub-title-yellow">
         {% trans %}
             cv.subtitle
         {% endtrans %}
     </h3>
     <div class="margin-underline">
-        <div class="underline-title line-blue"></div>
+        <div class="underline-title line-yellow"></div>
     </div>
 </div>
 
@@ -21,17 +21,17 @@
             <div class="col-5" data-aos="fade-right">
 
                 <div class="text-center">
-                    <i class="far fa-comment-alt blue-icon icon"></i>
-                    <h3 class="mt-3 base-text-blue">
+                    <i class="far fa-comment-alt yellow-icon icon"></i>
+                    <h3 class="mt-3 base-text-yellow">
                         {% trans %}
                             presentation
                         {% endtrans %}
                     </h3>
                 </div>
 
-                <p class="m-5 text-justify base-text-blue">
+                <p class="m-5 text-justify base-text-yellow">
                     {% if age is not null %}
-                        <span class="subtitle bolder base-text-blue">
+                        <span class="subtitle bolder base-text-yellow">
                             {{ age }} {% trans %}ans{% endtrans %},
                             {% if presentation is not null and app.request.locale == 'fr' %}
                                 {{ presentation.liscences }}, {{ presentation.locality }}
@@ -42,7 +42,7 @@
                         </span>
                     {% endif %}
 
-                    <div class="base-text-blue">
+                    <div class="base-text-yellow">
                         {% if presentation is not null and app.request.locale == 'fr' %}
                             {{ presentation.presentation|raw }}
                         {% elseif presentation is not null %}
@@ -55,8 +55,8 @@
             <div class="col-7">
 
                 <div class="text-center">
-                    <i class="fas fa-laptop-code blue-icon icon"></i>
-                    <h3 class="mt-3 base-text-blue">
+                    <i class="fas fa-laptop-code yellow-icon icon"></i>
+                    <h3 class="mt-3 base-text-yellow">
                         {% trans %}
                             skills
                         {% endtrans %}
@@ -69,7 +69,7 @@
 
                         {% for skillItem in skill %}
                             <div class="d-flex flex-column logo-skills mx-3" data-aos="flip-down">
-                                <div class="text-center logo-text blue">
+                                <div class="text-center logo-text yellow">
                                     {{ skillItem.title }}
                                 </div>
                                 <img src="{{ asset('build/images/'~skillItem.image) }}"
@@ -88,8 +88,8 @@
     </div>
 
     <div>
-        <h3 class="base-text-blue">
-            <i class="fas fa-chevron-right blue-icon"></i>
+        <h3 class="base-text-yellow">
+            <i class="fas fa-chevron-right yellow-icon"></i>
             {% trans %}
                 experiences
             {% endtrans %}
@@ -105,8 +105,8 @@
     </div>
 
     <div>
-        <h3 class="base-text-blue">
-            <i class="fas fa-chevron-right blue-icon"></i>
+        <h3 class="base-text-yellow">
+            <i class="fas fa-chevron-right yellow-icon"></i>
             {% trans %}
                 more.informations
             {% endtrans %}
@@ -119,11 +119,11 @@
                     <div class="d-flex flex-column justify-content-around mx-5">
 
                         {% for softSkillItem in softSkill %}
-                            <div class="base-text-blue"
+                            <div class="base-text-yellow"
                                  data-aos="flip-{% if loop.index is odd %}left{% else %}right{% endif %}"
                             >
                                 <span class="subicon">
-                                    <i class="{{ softSkillItem.icon }} blue-icon"></i>
+                                    <i class="{{ softSkillItem.icon }} yellow-icon"></i>
                                 </span>
                                 {% if app.request.locale == 'fr' %}
                                     {{ softSkillItem.title }}
@@ -140,7 +140,7 @@
                     <div class="d-flex flex-column justify-content-around mx-5">
 
                         {% for lang in langs %}
-                            <div class="base-text-blue"
+                            <div class="base-text-yellow"
                                  data-aos="flip-{% if loop.index is odd %}left{% else %}right{% endif %}"
                             >
                                 <img class="flag"

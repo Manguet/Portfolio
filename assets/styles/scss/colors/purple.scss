@@ -64,6 +64,11 @@
   box-shadow: 22px 0px 23px -10px $black;
 }
 
+.shadow-bottom-purple {
+  border-bottom: 1px solid $black;
+  box-shadow: 0px 22px 23px -10px $black;
+}
+
 .purple-parallax {
   color: $purple;
   text-shadow: 0px 0px 2px $black;

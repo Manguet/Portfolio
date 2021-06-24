@@ -7,6 +7,7 @@
   margin-left: 5vw;
   padding-left: 2vw;
   padding-right: 2vw;
+  display: none;
 
   a {
     text-decoration: none;
@@ -22,5 +23,12 @@
 
   img {
     width: 50px;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .left-header {
+    display: block;
   }
 }

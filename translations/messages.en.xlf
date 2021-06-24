@@ -71,7 +71,7 @@
       </trans-unit>
       <trans-unit id="NV958p1" resname="Comments">
         <source>Comments</source>
-        <target>Witness</target>
+        <target>Happy Customers</target>
       </trans-unit>
       <trans-unit id="GU8K2GB" resname="clients.comments">
         <source>clients.comments</source>
@@ -83,11 +83,11 @@
       </trans-unit>
       <trans-unit id="L.TwspH" resname="contact.start">
         <source>contact.start</source>
-        <target>contact.start</target>
+        <target>Tell me about you...</target>
       </trans-unit>
       <trans-unit id="ASCjpPs" resname="social.find.me">
         <source>social.find.me</source>
-        <target>__social.find.me</target>
+        <target>Follow me on my social networks</target>
       </trans-unit>
       <trans-unit id="hwBWq5i" resname="Mention légales">
         <source>Mention légales</source>
@@ -95,7 +95,7 @@
       </trans-unit>
       <trans-unit id="w9Nje0D" resname="Site propulsé en 2021 par">
         <source>Site propulsé en 2021 par</source>
-        <target>__Site propulsé en 2021 par</target>
+        <target>Site powered in 2021 by</target>
       </trans-unit>
       <trans-unit id="ZCOfjZ8" resname="développeur web et web mobile">
         <source>développeur web et web mobile</source>
@@ -115,11 +115,11 @@
       </trans-unit>
       <trans-unit id="u9efZfh" resname="cv.subtitle">
         <source>cv.subtitle</source>
-        <target>__cv.subtitle</target>
+        <target>My skills, my diplomas...</target>
       </trans-unit>
       <trans-unit id="v6wxT_." resname="presentation">
         <source>presentation</source>
-        <target>__presentation</target>
+        <target>About me</target>
       </trans-unit>
       <trans-unit id="ouCkzB8" resname="ans">
         <source>ans</source>
@@ -135,19 +135,19 @@
       </trans-unit>
       <trans-unit id="AE7OMnG" resname="more.informations">
         <source>more.informations</source>
-        <target>__more.informations</target>
+        <target>More Information</target>
       </trans-unit>
       <trans-unit id="F1TnBu7" resname="productions">
         <source>productions</source>
-        <target>__productions</target>
+        <target>Productions</target>
       </trans-unit>
       <trans-unit id="iDPgsJv" resname="my.works">
         <source>my.works</source>
-        <target>__my.works</target>
+        <target>Some of my projects</target>
       </trans-unit>
       <trans-unit id="WWAdZgN" resname="choose.theme">
         <source>choose.theme</source>
-        <target>__choose.theme</target>
+        <target>Choose your theme</target>
       </trans-unit>
       <trans-unit id="macCYXL" resname="light">
         <source>light</source>
@@ -183,7 +183,7 @@
       </trans-unit>
       <trans-unit id="G8yV3Os" resname="site.presentation">
         <source>site.presentation</source>
-        <target>__site.presentation</target>
+        <target>About me</target>
       </trans-unit>
       <trans-unit id="Izdmr4e" resname="site.presentation.one">
         <source>site.presentation.one</source>
@@ -499,87 +499,87 @@
       </trans-unit>
       <trans-unit id="OVJTE9y" resname="realisations">
         <source>realisations</source>
-        <target>__realisations</target>
+        <target>Productions</target>
       </trans-unit>
       <trans-unit id="K0JE_yZ" resname="comments">
         <source>comments</source>
-        <target>__comments</target>
+        <target>Feedback</target>
       </trans-unit>
       <trans-unit id="CT59X9u" resname="contact">
         <source>contact</source>
-        <target>__contact</target>
+        <target>Contact</target>
       </trans-unit>
       <trans-unit id="p1RObcQ" resname="download.cv">
         <source>download.cv</source>
-        <target>__download.cv</target>
+        <target>CV Download</target>
       </trans-unit>
       <trans-unit id="lwjwG44" resname="Même en">
         <source>Même en</source>
-        <target>__Même en</target>
+        <target>Even in</target>
       </trans-unit>
       <trans-unit id="eS_Tfw2" resname="reconversion">
         <source>reconversion</source>
-        <target>__reconversion</target>
+        <target>a professional retraining</target>
       </trans-unit>
       <trans-unit id="0kapFVI" resname="nous pouvons réussir">
         <source>nous pouvons réussir</source>
-        <target>__nous pouvons réussir</target>
+        <target>we can succeed</target>
       </trans-unit>
       <trans-unit id="GNt1sI1" resname="Travailler avec">
         <source>Travailler avec</source>
-        <target>__Travailler avec</target>
+        <target>Work with</target>
       </trans-unit>
       <trans-unit id="drHuWC2" resname="passion">
         <source>passion</source>
-        <target>__passion</target>
+        <target>passion</target>
       </trans-unit>
       <trans-unit id="q9bCNyj" resname="A la recherche de la">
         <source>A la recherche de la</source>
-        <target>__A la recherche de la</target>
+        <target>My goal</target>
       </trans-unit>
       <trans-unit id="_qHO7pw" resname="statisfaction">
         <source>statisfaction</source>
-        <target>__statisfaction</target>
+        <target>your satisfaction</target>
       </trans-unit>
       <trans-unit id="LnVw2Nh" resname="Benjamin Manguet - Connexion">
         <source>Benjamin Manguet - Connexion</source>
-        <target>__Benjamin Manguet - Connexion</target>
+        <target>Benjamin Manguet - Connexion</target>
       </trans-unit>
       <trans-unit id="YdaVBBA" resname="Connexion">
         <source>Connexion</source>
-        <target>__Connexion</target>
+        <target>Log in</target>
       </trans-unit>
       <trans-unit id=".5yLjAZ" resname="Mot de passe">
         <source>Mot de passe</source>
-        <target>__Mot de passe</target>
+        <target>Password</target>
       </trans-unit>
       <trans-unit id="vKw_KM8" resname="same.in">
         <source>same.in</source>
-        <target>__same.in</target>
+        <target>Even after</target>
       </trans-unit>
       <trans-unit id="l476eux" resname="we.can">
         <source>we.can</source>
-        <target>__we.can</target>
+        <target>we can succeed</target>
       </trans-unit>
       <trans-unit id="cFykEvI" resname="work.with">
         <source>work.with</source>
-        <target>__work.with</target>
+        <target>Work with</target>
       </trans-unit>
       <trans-unit id="ZvYtGAf" resname="research">
         <source>research</source>
-        <target>__research</target>
+        <target>My goal,</target>
       </trans-unit>
       <trans-unit id="Onh.7.a" resname="legals.mentions">
         <source>legals.mentions</source>
-        <target>__legals.mentions</target>
+        <target>Legals</target>
       </trans-unit>
       <trans-unit id="S75FxhF" resname="site.2021">
         <source>site.2021</source>
-        <target>__site.2021</target>
+        <target>Website powered by</target>
       </trans-unit>
       <trans-unit id="DL7OO1k" resname="web.mobile">
         <source>web.mobile</source>
-        <target>__web.mobile</target>
+        <target>Web and mobile developer</target>
       </trans-unit>
     </body>
   </file>

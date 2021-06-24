@@ -1,25 +1,25 @@
-<div class="left-header background-blue shadow-blue">
+<div class="left-header background-yellow shadow-yellow">
     {% if user is defined %}
-    <div class="mt-3 blue-title">
+    <div class="mt-3 yellow-title">
         <h3>
             {{ user.firstname }} {{ user.lastname }}
         </h3>
     </div>
     {% endif %}
 
-    <div class="mt-2 blue-title">
+    <div class="mt-2 yellow-title">
         {% trans %}job{% endtrans %}
     </div>
 
     {% if user is defined %}
-        <div class="mt-3 blue-title">
+        <div class="mt-3 yellow-title">
             <i class="fas fa-map-marker-alt"></i> {{ user.workAt }}
         </div>
     {% endif %}
 
     <div class="mt-5">
         <a href="#header"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="fas fa-home"></i>
@@ -34,7 +34,7 @@
 
     <div>
         <a href="#cv"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="fas fa-scroll"></i>
@@ -49,7 +49,7 @@
 
     <div>
         <a href="#realisations"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="fas fa-laptop-code"></i>
@@ -64,7 +64,7 @@
 
     <div>
         <a href="#temoignages"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="far fa-comment-dots"></i>
@@ -79,7 +79,7 @@
 
     <div>
         <a href="#contact"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="far fa-address-card"></i>
@@ -95,7 +95,7 @@
     <div>
         <a id="download"
            href="{{ path('index_cv') }}"
-           class="d-flex justify-content-between blue-title hover-menu-blue"
+           class="d-flex justify-content-between yellow-title hover-menu-yellow"
         >
             <span>
                 <i class="fas fa-download"></i>
@@ -111,7 +111,7 @@
         {% for lang in langs %}
             {% if app.request.locale != lang.locale %}
                 <a href="{{ path('index', {'_locale' : lang.locale}) }}"
-                   class="blue-title hover-menu-blue"
+                   class="yellow-title hover-menu-yellow"
                 >
                     <img src="{{ asset('build/images/'~lang.image) }}"
                          alt="{{ lang.altTitle }}"

@@ -48,7 +48,7 @@ class ContactType extends AbstractType
                     'placeholder' => $this->translator->trans('Nom ou raison sociale (obligatoire)')
                 ],
                 'label_attr' => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('firstname', TextType::class, [
@@ -58,7 +58,7 @@ class ContactType extends AbstractType
                     'placeholder' => $this->translator->trans('Prénom')
                 ],
                 'label_attr' => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('contact', ChoiceType::class, [
@@ -70,7 +70,7 @@ class ContactType extends AbstractType
                 ],
                 'placeholder' => $this->translator->trans('Quel type d\'utilisateur êtes-vous ?'),
                 'label_attr'  => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('phone', TextType::class, [
@@ -80,7 +80,7 @@ class ContactType extends AbstractType
                     'placeholder' => $this->translator->trans('Numéro de téléphone')
                 ],
                 'label_attr' => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('email', TextType::class, [
@@ -90,7 +90,7 @@ class ContactType extends AbstractType
                     'placeholder' => $this->translator->trans('Email')
                 ],
                 'label_attr' => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('message', TextareaType::class, [
@@ -100,7 +100,7 @@ class ContactType extends AbstractType
                     'placeholder' => $this->translator->trans('Votre message (obligatoire)')
                 ],
                 'label_attr' => [
-                    'class' => 'blue'
+                    'class' => 'yellow'
                 ],
             ])
             ->add('captcha', Recaptcha3Type::class, [
@@ -117,7 +117,7 @@ class ContactType extends AbstractType
             ->add('save', SubmitType::class, [
                 'label' => $this->translator->trans('Envoyer'),
                 'attr'  => [
-                    'class' => 'custom-button button-blue border-blue',
+                    'class' => 'custom-button button-yellow border-yellow',
                 ],
             ])
         ;

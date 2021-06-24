@@ -1,0 +1,114 @@
+<nav class="navbar navbar-expand-lg header-small background-yellow shadow-bottom-yellow fixed-top justify-content-between">
+
+    <div>
+        {% if user is defined %}
+            <div class="yellow-title">
+                <img src="{{ asset('build/images/logo.png') }}"
+                     alt="{{ user.firstname }} {{ user.lastname }}"
+                     class="ml-2 logo-small"
+                >
+            </div>
+        {% endif %}
+    </div>
+
+    <div>
+        <button class="navbar-toggler yellow-title"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse"
+             id="navbarNav"
+        >
+            <ul class="navbar-nav">
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="#header"
+                    >
+                        <i class="fas fa-home"></i>
+                        {% trans %}
+                            page.top
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="#cv"
+                    >
+                        <i class="fas fa-scroll"></i>
+                        {% trans %}
+                            CV
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="#realisations"
+                    >
+                        <i class="fas fa-laptop-code"></i>
+                        {% trans %}
+                            realisations
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="#temoignages"
+                    >
+                        <i class="far fa-comment-dots"></i>
+                        {% trans %}
+                            comments
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="#contact"
+                    >
+                        <i class="far fa-address-card"></i>
+                        {% trans %}
+                            contact
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link yellow-title hover-menu-yellow"
+                       href="{{ path('index_cv') }}"
+                    >
+                        <i class="fas fa-download"></i>
+                        {% trans %}
+                            download.cv
+                        {% endtrans %}
+                    </a>
+                </li>
+
+                {% for lang in langs %}
+                    {% if app.request.locale != lang.locale %}
+                        <li class="nav-item active">
+                            <a class="nav-link yellow-title hover-menu-yellow"
+                               href="{{ path('index', {'_locale' : lang.locale}) }}"
+                            >
+                                <img src="{{ asset('build/images/'~lang.image) }}"
+                                     alt="{{ lang.altTitle }}"
+                                >
+                                {{ lang.lang }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

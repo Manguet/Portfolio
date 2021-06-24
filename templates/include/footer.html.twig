@@ -3,7 +3,7 @@
         <div class="d-flex justify-content-around align-items-center">
             <div class="footer-link">
                 <button type="button"
-                        class="btn-custom replace-blue"
+                        class="btn-custom replace-yellow"
                         data-toggle="modal"
                         data-target="#legalsModal"
                 >
@@ -16,7 +16,7 @@
             {% if user is defined %}
                 <div class="footer-link">
                     <a href="{{ tool.site }}"
-                       class="replace-blue"
+                       class="replace-yellow"
                     >
                         {{ user.firstname|upper }} {{ user.lastname|upper }}
                     </a>
@@ -30,7 +30,7 @@
                     site.2021
                 {% endtrans %}
                 <a href="{{ tool.site }}"
-                   class="replace-blue"
+                   class="replace-yellow"
                 >
                     {{ user.firstname }} {{ user.lastname }}
                 </a>

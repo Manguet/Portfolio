@@ -1,0 +1,23 @@
+.header-small {
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .logo-small {
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+@media (min-width: $screen-xl-min) {
+
+  .header-small {
+    display: none;
+  }
+}

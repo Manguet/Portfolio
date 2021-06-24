@@ -61,6 +61,11 @@
               5px 0px 23px -10px inset $black;
 }
 
+.shadow-bottom-light {
+  border-bottom: 1px solid $black;
+  box-shadow: 0px 22px 23px -10px $black;
+}
+
 .light-parallax {
   color: $white;
   text-shadow: 0px 0px 2px $black;

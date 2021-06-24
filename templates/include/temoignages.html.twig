@@ -1,16 +1,16 @@
 <div class="text-center mt-5" id="temoignages">
-    <h2 class="title blue">
+    <h2 class="title yellow">
         {% trans %}
             Comments
         {% endtrans %}
     </h2>
-    <h3 class="subtitle-section base-text-blue">
+    <h3 class="subtitle-section base-text-yellow">
         {% trans %}
             clients.comments
         {% endtrans %}
     </h3>
     <div class="margin-underline">
-        <div class="underline-title line-blue"></div>
+        <div class="underline-title line-yellow"></div>
     </div>
 </div>
 
@@ -34,12 +34,12 @@
                     <h3>
                         <a href="{{ testimony.site }}"
                            target="_blank"
-                           class="blue replace-blue"
+                           class="yellow replace-yellow"
                         >
                             {{ testimony.title }}
                         </a>
                     </h3>
-                    <small class="ml-2 base-text-blue">
+                    <small class="ml-2 base-text-yellow">
                         {% if app.request.locale == 'fr' %}
                             le {{ testimony.createdAt|date('d/m/Y') }}
                         {% else %}
@@ -49,17 +49,17 @@
                 </div>
             </div>
 
-            <p class="base-text-blue mt-3">
+            <p class="base-text-yellow mt-3">
                 {% if app.request.locale == 'fr' %}
                     {{ testimony.testimony }}
                 {% else %}
                     {{ testimony.testimonyEn }}
                 {% endif %}
             </p>
-            <span class="base-text-blue">
+            <span class="base-text-yellow">
                 Site: <a href="{{ testimony.site }}"
                          target="_blank"
-                         class="blue replace-blue"
+                         class="yellow replace-yellow"
                 >
                     {{ testimony.title }}
                 </a>
