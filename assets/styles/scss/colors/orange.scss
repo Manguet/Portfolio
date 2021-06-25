@@ -73,3 +73,18 @@
   color: $orange;
   text-shadow: 0px 0px 2px $black;
 }
+
+.orange-scroll::-webkit-scrollbar {
+  width: 12px;
+  background-color: $white;
+}
+
+.orange-scroll::-webkit-scrollbar-track {
+  background: $black;
+}
+
+.orange-scroll::-webkit-scrollbar-thumb {
+  background-color: $orange;
+  border-radius: 20px;
+  border: 2px solid $white;
+}

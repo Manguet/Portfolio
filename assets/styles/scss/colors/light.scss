@@ -70,3 +70,18 @@
   color: $white;
   text-shadow: 0px 0px 2px $black;
 }
+
+.light-scroll::-webkit-scrollbar {
+  width: 12px;
+  background-color: $white;
+}
+
+.light-scroll::-webkit-scrollbar-track {
+  background: $white;
+}
+
+.light-scroll::-webkit-scrollbar-thumb {
+  background-color: $white;
+  border-radius: 20px;
+  border: 2px solid $black;
+}

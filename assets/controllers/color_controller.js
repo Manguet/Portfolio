@@ -49,6 +49,8 @@ export default class extends Controller {
                 this.modifyClasses(base, '', '-subtitle', newColor)
 
                 this.modifyClasses(base, '', '-parallax', newColor)
+                
+                this.modifyClasses(base, '', '-scroll', newColor)
             }
         });
     }

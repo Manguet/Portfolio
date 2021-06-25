@@ -37,3 +37,6 @@ $('#download').on('click', function (e) {
             window.URL.revokeObjectURL(url);
         })
 })
+
+$('body').addClass('yellow-scroll');
+scrollReDraw();
