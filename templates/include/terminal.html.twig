@@ -33,10 +33,10 @@
                             </span>
                     ] =
                     <span class="green-terminal">
-                                {% if user is defined %}
-                                    '{{ user.firstname }}'
-                                {% endif %}
-                            </span>
+                        {% if user is defined and user is not null %}
+                            '{{ user.firstname }}'
+                        {% endif %}
+                    </span>
                     ;
                 </p>
                 <p>
@@ -50,7 +50,7 @@
                             </span>
                     ] =
                     <span class="green-terminal">
-                                {% if user is defined %}
+                                {% if user is defined and user is not null %}
                                     '{{ user.lastname }}'
                                 {% endif %}
                             </span>;
@@ -66,7 +66,7 @@
                             </span>
                     ] =
                     <span class="green-terminal">
-                                {% if user is defined %}
+                                {% if user is defined and user is not null %}
                                     '{{ user.workAt }}'
                                 {% endif %}
                             </span>
@@ -83,7 +83,7 @@
                             </span>
                     ] =
                     <span class="orange-terminal">
-                                {% if user is defined %}
+                                {% if user is defined and user is not null %}
                                     '{{ user.isAvailable }}'
                                 {% endif %}
                             </span>;

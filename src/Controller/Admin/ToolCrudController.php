@@ -5,9 +5,12 @@ namespace App\Controller\Admin;
 use App\Entity\Tool;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 
 /**
  * @author Benjamin Manguet
+ *
+ * @IsGranted("ROLE_ADMIN")
  */
 class ToolCrudController extends AbstractCrudController
 {

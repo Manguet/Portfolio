@@ -13,7 +13,7 @@
                 </button>
             </div>
 
-            {% if user is defined %}
+            {% if user is defined and user is not null %}
                 <div class="footer-link">
                     <a href="{{ tool.site }}"
                        class="replace-yellow"
@@ -24,7 +24,7 @@
             {% endif %}
         </div>
 
-        {% if user is defined %}
+        {% if user is defined and user is not null %}
             <div class="informations">
                 {% trans %}
                     site.2021

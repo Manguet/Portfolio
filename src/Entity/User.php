@@ -36,9 +36,9 @@ class User implements UserInterface, AddressInterface, PersonnalDataInterface
     private $email;
 
     /**
-     * @ORM\Column(name="roles", type="json")
+     * @ORM\Column(name="roles", type="string")
      */
-    private $roles = [];
+    private $roles;
 
     /**
      * @var string The hashed password
@@ -79,10 +79,10 @@ class User implements UserInterface, AddressInterface, PersonnalDataInterface
      */
     public function getRoles(): array
     {
-        return array_unique($this->roles);
+        return explode(',', $this->roles);
     }
 
-    public function setRoles(array $roles): self
+    public function setRoles(string $roles): self
     {
         $this->roles = $roles;
 

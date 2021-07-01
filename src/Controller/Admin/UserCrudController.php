@@ -14,9 +14,9 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/{_locale}/admin/user", name="_user")
  *
- * @IsGranted("ROLE_ADMIN")
- *
  * @author Benjamin Manguet
+ *
+ * @IsGranted("ROLE_ADMIN")
  */
 class UserCrudController extends AbstractCrudController
 {

@@ -86,7 +86,7 @@ class DefaultController extends AbstractController
                           AgeCalculatorInterface $ageCalculator): Response
     {
         $user = $this->entityManager->getRepository(User::class)
-            ->find(1);
+            ->findOneBy([]);
 
         $age = $ageCalculator->getAge($user);
 

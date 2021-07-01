@@ -11,7 +11,10 @@
 
     <div class="text-on-carousel">
         <div class="d-flex justify-content-center flex-column carousel-titles">
-            <h1>{{ user.firstname }} {{ user.lastname }}</h1>
+
+            {% if user is defined and user is not null %}
+                <h1>{{ user.firstname }} {{ user.lastname }}</h1>
+            {% endif %}
 
             <h2 class="yellow-subtitle">{% trans %}job{% endtrans %}</h2>
         </div>

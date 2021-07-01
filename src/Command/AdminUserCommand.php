@@ -72,7 +72,7 @@ class AdminUserCommand extends Command
 
         $user
             ->setEmail($_ENV['ADMIN_EMAIL'])
-            ->setRoles([$_ENV['ADMIN_ROLE']])
+            ->setRoles($_ENV['ADMIN_ROLE'])
             ->setFirstname('Benjamin')
             ->setLastName('Manguet')
             ->setIsAvailable('true')
